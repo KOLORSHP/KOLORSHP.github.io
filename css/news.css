@@ -1,0 +1,77 @@
+.news {
+  height: 1000px;
+}
+
+.news-title {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', serif;
+  font-weight: normal;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.news-title::before,
+.news-title::after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: black;
+}
+
+.news-title::before {
+    margin-right: 5rem;
+}
+.news-title::after {
+    margin-left: 5rem;
+}
+
+.news-content {
+  display: flex;
+}
+
+.title {
+  padding-top: 20px;
+  padding-left: 130px;
+}
+
+.title p {
+  color: gray;
+}
+
+.title h2 {
+  font-size: 35px;
+  color: black;
+  font-weight: normal;
+}
+
+.news-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 160px;
+  margin-top: 15px;
+}
+
+.news-text {
+  font-size: 25px;
+  padding-left: 120px;
+  padding-top: 35px;
+  font-family: 'Helvetica Neue', 'Helbetica', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
+}
+
+.detail {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.news-content a {
+  color: #009dff;
+}
+
+.news-line {
+  border: 1px dashed gray;
+  width: 1150px;
+  margin: 80px auto 0 auto;
+}
