@@ -1,6 +1,6 @@
 .live {
   height: 1000px;
-  font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', serif;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond","Times New Roman", serif;
 }
 
 .live-title {
@@ -14,17 +14,17 @@
 
 .live-title::before,
 .live-title::after {
-    content: "";
-    height: 1px;
-    flex-grow: 1;
-    background-color: black;
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
 }
 
 .live-title::before {
-    margin-right: 5rem;
+  margin-right: 5rem;
 }
 .live-title::after {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 .live-content {
