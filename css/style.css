@@ -38,18 +38,14 @@ body {
 
 /*******topic*******/
 
-.topic {
-  height: 880px;
-}
-
 .topic-title {
   display: flex;
   align-items: center;
   color: white;
-  font-size: 65px;
+  font-size: 55px;
   font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', serif;
   font-weight: normal;
-  padding-top: 110px;
+  padding-top: 80px;
 }
 
 .topic-title::before,
@@ -69,24 +65,23 @@ body {
 }
 
 .topic-content {
-  margin-top: 30px;
-  height: 500px;
+  margin: 30px 0 150px 0;
+  height: 480px;
+  width: 1100px;
   background-image: url(../img/index_bg02.png);
   display: flex;
 }
 
 .topic-img {
-  width: 400px;
-  height: 400px;
-  margin-top: 50px;
-  margin-left: 130px;
+  width: 380px;
+  height: 380px;
+  margin: 50px 0 0 120px;
 }
 
 .topic-text {
-  font-size: 45px;
+  font-size: 35px;
   color: white;
-  margin-top: 50px;
-  margin-left: 100px;
+  margin: 50px 0 0 80px;
 }
 
 .topic-text span {
@@ -94,7 +89,8 @@ body {
 }
 
 .topic-url {
+  display: block;
   font-size: 30px;
-  padding-top: 40px;
+  padding-top: 35px;
   color: #009dff;
 }
