@@ -5,7 +5,9 @@ body {
 /*******main-visual*******/
 
 .main-visual {
-  height: 815px;
+  height: 740px;
+  width: 1350px;
+  margin: auto;
   background-image: url(../img/index_bg01.png);
   background-size: cover;
   background-position: center;
@@ -14,19 +16,19 @@ body {
 .main-content {
   display: flex;
   align-items: flex-start;
-  padding-top: 150px;
+  padding-top: 110px;
 }
 
 .main-img {
-  width: 490px;
-  height: 490px;
+  width: 400px;
+  height: 400px;
   margin-top: 30px;
 }
 
 .main-text {
   color: white;
   font-family: 'Impact', 'Charcoal', 'Arial Black', sans-serif;
-  font-size: 150px;
+  font-size: 130px;
   padding-left: 160px;
 }
 
