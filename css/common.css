@@ -42,7 +42,7 @@ header a {
 .logo {
   line-height: 80px;
   font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', serif;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: normal;
   letter-spacing: 10px;
   padding-left: 25px;
@@ -55,8 +55,8 @@ header a {
 
 .nav-list {
   padding: 0 20px;
-  margin-top: 40px;
-  font-size: 20px;
+  margin-top: 45px;
+  font-size: 22px;
   font-family: 'Diwan Thuluth';
 }
 
@@ -72,24 +72,31 @@ header a {
 }
 
 .icon {
-  width: 60px;
-  height: 30px;
-  padding: 0 10px;
+  margin-right: 35px;
 }
 
-.icon:first-child {
-  height: 35px;
-  width: 55px;
+.icon1 {
+  width: 30px;
+  margin-left: 20px;
 }
 
+.icon2 {
+  width: 35px;
+}
+
+.icon3 {
+  width: 40px;
+  margin-right: 0px;
+}
 
 .sns p {
-  color: red;
+  color: #D10000;
   position: absolute;
-  top: 0;
-  padding-left: 50px;
-  font-size: 20px;
-  font-weight: bold;
+  top: 10px;
+  left: 25px;
+  padding-left: 55px;
+  font-size: 23px;
+  font-family: 'Helvetica Neue', 'Helbetica', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
 }
 
 /*******footer*******/
