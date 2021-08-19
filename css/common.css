@@ -67,7 +67,7 @@ header a {
 
 .sns {
   margin-top: 25px;
-  padding-right: 25px;
+  margin-left: 35px;
   position: relative;
 }
 
@@ -77,24 +77,21 @@ header a {
 
 .icon1 {
   width: 30px;
-  margin-left: 20px;
 }
 
 .icon2 {
-  width: 35px;
+  width: 30px;
 }
 
 .icon3 {
   width: 40px;
-  margin-right: 0px;
 }
 
 .sns p {
   color: #D10000;
   position: absolute;
-  top: 10px;
-  left: 23px;
-  padding-left: 55px;
+  top: 3px;
+  left: 50px;
   font-size: 22px;
   font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
