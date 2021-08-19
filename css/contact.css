@@ -28,3 +28,16 @@
 .contact-title::after {
   margin-left: 5rem;
 }
+
+.contact-content {
+  padding: 70px 0 0 180px;
+}
+
+.contact-content span {
+  color: #5fb1dd;
+}
+
+.contact-content p:first-child {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
