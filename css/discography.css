@@ -34,3 +34,20 @@
   text-align: center;
   padding-top: 10px;
 }
+
+.discography img {
+  width: 300px;
+}
+
+input[name="tab_item"] {
+  display: none;
+}
+
+.tab_content {
+  display: none;
+}
+
+#single:checked ~ #single_content,
+#album:checked ~ #album_content {
+  display: block;
+}
