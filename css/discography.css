@@ -21,10 +21,10 @@
   background-color: black;
 }
 
-.discography::before {
+.discography-title::before {
   margin-right: 5rem;
 }
-.discography::after {
+.discography-title::after {
   margin-left: 5rem;
 }
 
