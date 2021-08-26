@@ -33,3 +33,11 @@
 .single-title::after {
   margin-left: 5rem;
 }
+
+.single01-content {
+  text-align: center;
+}
+
+.single01-content img {
+  width: 300px;
+}
