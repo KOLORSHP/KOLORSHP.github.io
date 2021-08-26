@@ -1,0 +1,48 @@
+.contact {
+  height: 1000px;
+  font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.contact-title {
+  font-size: 70px;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond","Times New Roman", serif;
+}
+
+.contact-title::before,
+.contact-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.contact-title::before {
+  margin-right: 5rem;
+}
+
+.contact-title::after {
+  margin-left: 5rem;
+}
+
+.contact-content {
+  padding: 70px 0 0 180px;
+}
+
+.contact-content {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.contact-content p:first-child {
+  padding-bottom: 10px;
+}
+
+.contact-content p:last-child {
+  font-size: 16px;
+  padding-top: 30px;
+}
