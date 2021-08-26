@@ -2,3 +2,34 @@
   height: 1000px;
 }
 
+.single-title {
+  font-size: 70px;
+  text-align: center;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
+}
+
+.single01 p {
+  text-align: center;
+  font-size: 23px;
+  padding-top: 40px;
+  color: gray;
+}
+
+.single-title::before,
+.single-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.single-title::before {
+  margin-right: 5rem;
+}
+.single-title::after {
+  margin-left: 5rem;
+}
