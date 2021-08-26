@@ -2,7 +2,11 @@
   height: 1000px;
 }
 
-.single-title {
+.single01-title {
+  position: relative;
+}
+
+.single01-title h1 {
   font-size: 70px;
   text-align: center;
   font-weight: normal;
@@ -12,26 +16,33 @@
     "Times New Roman", serif;
 }
 
-.single01 p {
+.single01-title p {
   text-align: center;
   font-size: 23px;
-  padding-top: 40px;
   color: gray;
+  padding-top: 40px;
 }
 
-.single-title::before,
-.single-title::after {
+.single01-title h1::before,
+.single01-title h1::after {
   content: "";
   height: 1px;
   flex-grow: 1;
   background-color: black;
 }
 
-.single-title::before {
+.single01-title h1::before {
   margin-right: 5rem;
 }
-.single-title::after {
+.single01-title h1::after {
   margin-left: 5rem;
+}
+
+.single01-title img {
+  width: 80px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
 }
 
 .single01-content {
