@@ -41,6 +41,7 @@
 .single01-title img {
   width: 80px;
   position: absolute;
+  z-index: 10;
   top: 15px;
   left: 20px;
 }
