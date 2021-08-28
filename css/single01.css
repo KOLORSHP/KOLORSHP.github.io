@@ -89,3 +89,13 @@
     vertical-align: middle;
 }
 
+.link_btn {
+  display: block;
+  width: 380px;
+  margin: 20px auto;
+  padding: 1em 1em;
+  background: #5fb1dd;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
