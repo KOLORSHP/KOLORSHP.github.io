@@ -1,3 +1,36 @@
 .band {
   height: 1000px;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond","Times New Roman", serif;
+}
+
+.band-title {
+  font-size: 70px;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.band-title::before,
+.band-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.band-title::before,
+.band-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.band-title::before {
+  margin-right: 5rem;
+}
+.band-title::after {
+  margin-left: 5rem;
 }
