@@ -1,5 +1,7 @@
 .single01 {
   height: 1000px;
+  font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+    'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
 .single01-title {
@@ -52,4 +54,30 @@
 
 .single01-content img {
   width: 300px;
+}
+
+.single01-content p {
+  font-size: 18px;
+}
+
+.single01-song {
+  padding-top: 15px;
+  font-size: 23px;
+}
+
+.single01-song img  {
+  width: 30px;
+  display: inline-block;
+}
+
+.single01-song p {
+  display: inline-block;
+}
+
+.single01-song button {
+    background:none;
+    border:0;
+    overflow:visible;
+    cursor:pointer;
+    vertical-align: middle;
 }
