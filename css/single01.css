@@ -35,10 +35,10 @@
 }
 
 .single01-title h1::before {
-  margin-right: 5rem;
+  margin-right: 8rem;
 }
 .single01-title h1::after {
-  margin-left: 5rem;
+  margin-left: 8rem;
 }
 
 .single01-content {
@@ -62,7 +62,7 @@
 }
 
 .record {
-  margin-left: 40px;
+  margin-left: 55px;
 }
 
 .single01-song img  {
@@ -84,11 +84,12 @@
 
 .link_btn {
   display: block;
-  width: 380px;
+  width: 430px;
   margin: 20px auto;
   padding: 1em 1em;
   background: #5fb1dd;
   color: white;
   text-decoration: none;
   border-radius: 10px;
+  font-size: 18px;
 }
