@@ -5,7 +5,8 @@
 }
 
 .single01-title {
-  position: relative;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
 }
 
 .single01-title h1 {
@@ -89,5 +90,5 @@
   background: #5fb1dd;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
 }
