@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/single01.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <title>Kolors Official</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-group">
+        <a href="index.html">
+          <h2 class="logo">KOLORS</h2>
+        </a>
+
+        <nav>
+          <ul class="nav">
+            <li class="nav-list">
+              <a href="news.html">News</a>
+            </li>
+            <li class="nav-list">
+              <a href="band.html">Band</a>
+            </li>
+            <li class="nav-list">
+              <a href="live.html">Live</a>
+            </li>
+            <li class="nav-list">
+              <a href="discography.html">Discography</a>
+            </li>
+            <li class="nav-list">
+              <a href="https://lnk.to/KOLORSmusic" target="_blank" rel="noopener noreferrer">Store</a>
+            </li>
+            <li class="nav-list">
+              <a href="contact.html">Contact</a>
+            </li>
+            <div class="sns">
+              <a href="https://instagram.com/kolors__official?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
+                <img class="icon icon1" src="assets/img/header_icon01.png" alt="Instagram">
+              </a>
+              <img class="icon icon2" src="assets/img/header_icon02.png" alt="twitter">
+              <img class="icon icon3" src="assets/img/header_icon03.png" alt="youtube">
+              <p>Coming Soon</p>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="single01">
+      <div class="single01-title">
+        <p>1st Single</p>
+        <h1>BLUE</h1>
+      </div>
+
+      <div class="single01-content">
+        <img src="img/common_img01.png" alt="Blue Jacket">
+        <p>2021.5.21 Released</p>
+        <div class="single01-song">
+          <p class="record">収録内容</p>
+          <div class="song01">
+            <audio id="audio01" src="sounds/blue.wav"></audio>
+            <button type="image" id="btn-play1" class="btn-play"><img src="assets/img/discography_icon01.png" alt="再生"></button>
+            <p>01.BLUE</p>
+          </div>
+          <div class="song02">
+            <audio id="audio02" src="sounds/afr.wav"></audio>
+            <button type="image" id="btn-play2" class="btn-play"><img src="assets/img/discography_icon01.png" alt="再生"></button>
+            <p>02.After the Rain</p>
+          </div>
+        </div>
+        <a class="link_btn" href="https://linkco.re/Srp0Rp3U" target="_blank" rel="noopener noreferrer">楽曲配信及びダウンロードサイトはコチラ</a>
+      </div>
+    </section>
+
+    <footer>
+      <p class="footer-title">Music</p>
+      <div class="footer-content">
+        <a href="https://music.apple.com/jp/artist/kolors/1568930725">
+          <img class="music-logo logo1" src="assets/img/footer_logo01.svg" alt="Apple Music">
+        </a>
+        <a href="https://open.spotify.com/artist/6HoQX693AgnVdEyY7qEY6X?si=EwbwMQZwQkC9wS8ykq3ikg&dl_branch=1">
+          <img class="music-logo logo2" src="assets/img/footer_logo02.png" alt="spotify">
+        </a>
+        <a href="https://music.line.me/webapp/artist/mi00000000163d9617">
+          <img class="music-logo logo3" src="assets/img/footer_logo03.png" alt="LINE MUSIC">
+        </a>
+        <a href="https://music.apple.com/jp/artist/kolors/1568930725">
+          <img class="music-logo logo4" src="assets/img/footer_logo04.png" alt="iTunes">
+        </a>
+      </div>
+      <div class="footer-text">
+        <p>©️KOLORS All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script>
+  const audio01 = document.querySelector("#audio01");
+  const audio02 = document.querySelector("#audio02");
+  const btn  = document.querySelector("#btn-play1");
+  const btn2 = document.querySelector("#btn-play2");
+
+  btn.addEventListener("click", ()=>{
+    // pausedがtrue=>停止, false=>再生中
+    if( ! audio01.paused ){
+      btn.innerHTML = '<img class="btn-play" src="assets/img/discography_icon01.png" alt="再生">';  // 「再生ボタン」に切り替え
+      audio01.pause();
+      audio01.currentTime = 0;
+    }
+    else{
+      btn.innerHTML = '<img class="btn-play" src="assets/img/discography_icon02.png" alt="一時停止">';  // 「一時停止ボタン」に切り替え
+      audio01.play();
+    }
+  });
+
+  btn2.addEventListener("click", ()=>{
+    // pausedがtrue=>停止, false=>再生中
+    if( ! audio02.paused ){
+      btn2.innerHTML = "<img src='assets/img/discography_icon01.png'>";  // 「再生ボタン」に切り替え
+      audio02.pause();
+      audio02.currentTime = 0;
+    }
+    else{
+      btn2.innerHTML = '<img src="assets/img/discography_icon02.png" alt="一時停止">';  // 「一時停止ボタン」に切り替え
+      audio02.play();
+    }
+  });
+
+  /**
+   * [event] 再生終了時に実行
+   */
+   audio01.addEventListener("ended", ()=>{
+    audio01.currentTime = 0;  // 再生位置を先頭に移動
+    btn.innerHTML = '<img src="assets/img/discography_icon01.png" alt="再生">';  // 「再生ボタン」に変更
+  });
+
+  audio02.addEventListener("ended", ()=>{
+    audio02.currentTime = 0;  // 再生位置を先頭に移動
+    btn2.innerHTML = '<img src="assets/img/discography_icon01.png" alt="一時停止">';  // 「再生ボタン」に変更
+  });
+</script>
