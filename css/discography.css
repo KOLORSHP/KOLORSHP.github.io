@@ -67,11 +67,14 @@ input[name="tab_item"] {
   display: block;
 }
 
-.tabs img {
-  width: 300px;
-  padding-top: 80px;
+.tab_content_description {
+  overflow: hidden;
+}
+
+.tab_content_description img {
+  width: 20%;
+  margin: 70px 15px 0 50px;
   float: left;
-  margin-left: 150px;
 }
 
 .tabs input:checked + .tab_item {
