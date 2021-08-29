@@ -28,8 +28,9 @@ body {
 .main-text {
   color: white;
   font-family: 'Impact', 'Charcoal', 'Arial Black', sans-serif;
-  font-size: 130px;
-  padding-left: 160px;
+  font-size: 95px;
+  padding: 27px 0 0 160px;
+  line-height: 1.5;
 }
 
 .main-text span {
