@@ -34,3 +34,16 @@
 .band-title::after {
   margin-left: 5rem;
 }
+
+.member {
+  width: 24%;
+}
+
+.band-content {
+  width: 80%;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
