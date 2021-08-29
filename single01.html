@@ -40,7 +40,9 @@
               <a href="https://instagram.com/kolors__official?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
                 <img class="icon icon1" src="assets/img/header_icon01.png" alt="Instagram">
               </a>
-              <img class="icon icon2" src="assets/img/header_icon02.png" alt="twitter">
+              <a href="https://twitter.com/KLS__official" target="_blank" rel="noopener noreferrer">
+                <img class="icon icon2" src="assets/img/header_icon02.png" alt="twitter">
+              </a>
               <img class="icon icon3" src="assets/img/header_icon03.png" alt="youtube">
               <p>Coming Soon</p>
             </div>
@@ -114,6 +116,7 @@
     else{
       btn.innerHTML = '<img class="btn-play" src="assets/img/discography_icon02.png" alt="一時停止">';  // 「一時停止ボタン」に切り替え
       audio01.play();
+      audio01.currentTime = 0;
     }
   });
 

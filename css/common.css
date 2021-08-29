@@ -82,6 +82,7 @@ header a {
 
 .icon2 {
   width: 30px;
+  padding-bottom: 2px;
 }
 
 .icon3 {
@@ -91,9 +92,9 @@ header a {
 .sns p {
   color: #D10000;
   position: absolute;
-  top: 3px;
-  left: 50px;
-  font-size: 22px;
+  top: 6px;
+  left: 120px;
+  font-size: 12px;
   font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
