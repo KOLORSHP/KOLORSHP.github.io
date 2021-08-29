@@ -36,14 +36,19 @@
 }
 
 .member {
-  width: 24%;
-}
-
-.band-content {
   width: 80%;
   margin: 70px auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+}
+
+.member img {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.name {
+  text-align: center;
+}
+
+.part {
+  text-align: center;
 }
