@@ -29,7 +29,7 @@ body {
   color: white;
   font-family: 'Impact', 'Charcoal', 'Arial Black', sans-serif;
   font-size: 95px;
-  padding: 27px 0 0 150px;
+  padding: 27px 0 0 160px;
   line-height: 1.5;
 }
 
@@ -82,7 +82,7 @@ body {
 .topic-text {
   font-size: 35px;
   color: white;
-  margin: 50px 0 0 60px;
+  margin: 65px 0 0 80px;
 }
 
 .topic-text span {
