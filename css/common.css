@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1100px;
+  width: 1024px;
   margin: auto;
 }
 
@@ -74,12 +74,12 @@ nav {
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
     "Times New Roman", serif;
   font-size: 40px;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
   color: white;
 }
 
 nav ul li {
-  padding: 20px 15px 0 15px;
+  padding-top: 35px;
   font-size: 22px;
   font-family: "Diwan Thuluth";
 }
@@ -117,10 +117,18 @@ nav a:hover {
   color: #d10000;
   position: absolute;
   top: 15px;
-  left: 192px;
-  font-size: 11px;
+  left: 90px;
+  font-size: 15px;
   font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",sans-serif;
 }
+
+.sns p:last-child {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+/*ハンバーガーメニュー*/
 
 .fullscreen .modal-header {
   background: linear-gradient(black, #2b2b2b);

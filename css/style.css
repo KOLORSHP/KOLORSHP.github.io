@@ -6,7 +6,7 @@ body {
 
 .main-visual {
   height: 740px;
-  width: 1350px;
+  width: 100%;
   margin: auto;
   background-image: url(../img/index_bg01.png);
   background-size: cover;
@@ -68,7 +68,7 @@ body {
 .topic-content {
   margin: 30px 0 150px 0;
   height: 480px;
-  width: 1100px;
+  width: 100%;
   background-image: url(../img/index_bg02.png);
   display: flex;
 }
@@ -76,7 +76,7 @@ body {
 .topic-img {
   width: 380px;
   height: 380px;
-  margin: 50px 0 0 120px;
+  margin: 50px 0 0 50px;
 }
 
 .topic-text {
