@@ -174,23 +174,16 @@ nav a:hover {
   padding: 0 0 0 0;
 }
 
-.fullscreen .modal-body li {
-  text-align: center;
-}
-
 .fullscreen .modal-body a {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .fullscreen .modal-body .sns {
   position: relative;
   text-align: center;
   width: 100%;
-}
-
-.fullscreen .modal-body .sns img {
-  margin: 8px;
 }
 
 .fullscreen .modal-body .sns .icon1 {
@@ -205,12 +198,12 @@ nav a:hover {
   width: 50px;
 }
 
-.fullscreen .modal-body .sns p {
+/*.fullscreen .modal-body .sns p {
   position: absolute;
   font-size: 30px;
-  left: 720px;
+  left: 430px;
   top: 28px;
-}
+}*/
 
 /*******footer*******/
 
