@@ -5,23 +5,25 @@ body {
 /*******main-visual*******/
 
 .main-visual {
-  height: 740px;
   width: 100%;
-  margin: auto;
+  height: 0;
+  padding-top: 54.6%;
   background-image: url(../img/index_bg01.png);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .main-content {
   display: flex;
-  align-items: flex-start;
-  padding: 10% 0 0 3%;
+  /*align-items: flex-start;*/
+  position: absolute;
+  top: 80px;
+  left: 140px;
 }
 
 .main-img {
-  width: 35%;
-  height: 35%;
+  width: 30%;
   margin-top: 30px;
 }
 
@@ -97,18 +99,23 @@ body {
   color: #009dff;
 }
 
-@media screen and (max-width: 768px) {
-  .main-text {
-    padding-top: 10%;
+@media screen and (max-width: 749px) {
+  .main-content {
+    top: 30px;
+    left: 50px;
   }
 }
 
 @media screen and (min-width: 1500px) {
+  .main-content {
+    left: 360px;
+    top: 220px;
+  }
   .main-text {
-    font-size: 3vw;
+    font-size: 4vw;
     padding-left: 11%;
   }
   .main-text span {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }
