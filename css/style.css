@@ -100,6 +100,32 @@ body {
   color: #009dff;
 }
 
+/*sp版でのみ表示*/
+.phone-area {
+  height: 300px;
+}
+
+.phone-content {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.btn-1 {
+  width: 140px;
+}
+
+.btn-2 {
+  width: 110px;
+}
+
+.btn-3 {
+  width: 140px;
+}
+
+.btn-4 {
+  width: 100px;
+}
+
 @media screen and (max-width: 749px) {
   .main-content {
     top: 30px;
