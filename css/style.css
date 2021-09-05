@@ -16,25 +16,25 @@ body {
 .main-content {
   display: flex;
   align-items: flex-start;
-  padding-top: 110px;
+  padding: 10% 0 0 3%;
 }
 
 .main-img {
-  width: 400px;
-  height: 400px;
+  width: 35%;
+  height: 35%;
   margin-top: 30px;
 }
 
 .main-text {
   color: white;
-  font-family: 'Impact', 'Charcoal', 'Arial Black', sans-serif;
-  font-size: 80px;
-  padding: 30px 0 0 160px;
+  font-family: "Impact", "Charcoal", "Arial Black", sans-serif;
+  font-size: 5vw;
+  padding: 5% 0 0 15%;
   line-height: 1.5;
 }
 
 .main-text span {
-  font-size: 95px;
+  font-size: 6vw;
 }
 
 /*******topic*******/
@@ -44,25 +44,26 @@ body {
   align-items: center;
   color: white;
   font-size: 55px;
-  font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', serif;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
   font-weight: normal;
   padding-top: 80px;
 }
 
 .topic-title::before,
 .topic-title::after {
-    content: "";
-    height: 1px;
-    flex-grow: 1;
-    background-color: gray;
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: gray;
 }
 
 .topic-title::before {
-    margin-right: 5rem;
+  margin-right: 5rem;
 }
 
 .topic-title::after {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 .topic-content {
@@ -94,4 +95,20 @@ body {
   font-size: 30px;
   padding-top: 35px;
   color: #009dff;
+}
+
+@media screen and (max-width: 768px) {
+  .main-text {
+    padding-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .main-text {
+    font-size: 3vw;
+    padding-left: 11%;
+  }
+  .main-text span {
+    font-size: 4vw;
+  }
 }
