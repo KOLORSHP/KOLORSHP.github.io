@@ -28,13 +28,13 @@ body {
 .main-text {
   color: white;
   font-family: 'Impact', 'Charcoal', 'Arial Black', sans-serif;
-  font-size: 95px;
-  padding: 27px 0 0 150px;
+  font-size: 80px;
+  padding: 30px 0 0 160px;
   line-height: 1.5;
 }
 
 .main-text span {
-  color: #009dff;
+  font-size: 95px;
 }
 
 /*******topic*******/
