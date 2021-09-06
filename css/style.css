@@ -5,8 +5,9 @@ body {
 /*******main-visual*******/
 
 .main-visual {
-  width: 100%;
+  width: 95%;
   height: 0;
+  margin: 0 auto;
   padding-top: 54.6%;
   background-image: url(../img/index_bg01.png);
   background-size: cover;
