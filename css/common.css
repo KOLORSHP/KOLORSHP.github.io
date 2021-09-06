@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 body {
   padding-top: 80px;
   font-family: "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho",
