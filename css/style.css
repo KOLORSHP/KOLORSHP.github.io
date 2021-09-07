@@ -17,6 +17,7 @@ body {
   display: flex;
   align-items: flex-start;
   padding-top: 110px;
+  padding-left: 120px;
 }
 
 .main-img {
@@ -28,12 +29,13 @@ body {
 .main-text {
   color: white;
   font-family: 'Impact', 'Charcoal', 'Arial Black', sans-serif;
-  font-size: 130px;
-  padding-left: 160px;
+  font-size: 80px;
+  padding: 30px 0 0 160px;
+  line-height: 1.5;
 }
 
 .main-text span {
-  color: #009dff;
+  font-size: 110px;
 }
 
 /*******topic*******/
@@ -65,7 +67,7 @@ body {
 }
 
 .topic-content {
-  margin: 30px 0 150px 0;
+  margin: 30px auto 150px auto;
   height: 480px;
   width: 1100px;
   background-image: url(../img/index_bg02.png);
@@ -81,7 +83,7 @@ body {
 .topic-text {
   font-size: 35px;
   color: white;
-  margin: 50px 0 0 80px;
+  margin: 65px 0 0 80px;
 }
 
 .topic-text span {
