@@ -112,20 +112,8 @@ body {
   margin: 0 auto;
 }
 
-.btn-1 {
+.phone-content img {
   width: 140px;
-}
-
-.btn-2 {
-  width: 110px;
-}
-
-.btn-3 {
-  width: 140px;
-}
-
-.btn-4 {
-  width: 100px;
 }
 
 @media screen and (max-width: 749px) {
