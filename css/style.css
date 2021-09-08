@@ -108,12 +108,26 @@ body {
 }
 
 .phone-content {
-  width: 40%;
-  margin: 0 auto;
+  width: 60%;
+  margin: 8% auto;
 }
 
 .phone-content img {
-  width: 140px;
+  width: 45%;
+}
+
+.btn-2, .btn-4 {
+  margin-left: 8%;
+}
+
+.btn-3, .btn-4 {
+  margin-top: 6%;
+}
+
+@media screen and (max-width: 450px) {
+  .btn-2, .btn-4 {
+    margin-left: 4%;
+  }
 }
 
 @media screen and (max-width: 749px) {
