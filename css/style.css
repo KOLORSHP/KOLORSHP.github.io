@@ -105,6 +105,7 @@ body {
 /*sp版でのみ表示*/
 .phone-area {
   height: 300px;
+  display: none;
 }
 
 .phone-content {
@@ -130,10 +131,14 @@ body {
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 768px) {
   .main-content {
     top: 30px;
     left: 50px;
+  }
+
+  .phone-area {
+    display: block;
   }
 }
 
