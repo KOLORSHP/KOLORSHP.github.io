@@ -64,11 +64,11 @@ body {
 }
 
 .topic-title::before {
-  margin-right: 5rem;
+  margin-right: 2%;
 }
 
 .topic-title::after {
-  margin-left: 5rem;
+  margin-left: 2%;
 }
 
 .topic-content {
@@ -100,6 +100,30 @@ body {
   font-size: 30px;
   padding-top: 35px;
   color: #009dff;
+}
+
+/*sp版topic*/
+.sp-topic {
+  height: 1200px;
+
+}
+
+.sp-topic-content {
+  padding-top: 80.09%;
+  height: 0;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(../img/sp-topic.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.sp-topic-content img {
+  position: absolute;
+  top: 6%;
+  left: 30%;
+  width: 40%;
 }
 
 /*sp版でのみ表示*/
@@ -139,6 +163,10 @@ body {
 
   .phone-area {
     display: block;
+  }
+
+  .topic {
+    display: none;
   }
 }
 
