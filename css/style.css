@@ -144,13 +144,14 @@ body {
 
 .sp-topic-url {
   display: block;
-  width: 200px;
-  padding: 10px 0 10px 20px;
+  width: 35%;
+  padding: 10px 0 10px 0;
   background-color: rgba(0,99,160,0.8);
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 2vw;
+  margin: 0 auto;
 }
 
 /*sp版でのみ表示*/
