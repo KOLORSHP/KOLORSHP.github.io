@@ -190,6 +190,16 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .topic-text {
+    margin: 60px 0 0 160px;
+  }
+
+  .topic-img {
+    margin: 80px 0 0 80px;
+  }
+}
+
 @media screen and (min-width: 1500px) {
   .main-content {
     left: 360px;
