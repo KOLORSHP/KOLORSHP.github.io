@@ -142,6 +142,17 @@ body {
   font-size: 4vw;
 }
 
+.sp-topic-url {
+  display: block;
+  width: 200px;
+  padding: 10px 0 10px 20px;
+  background-color: rgba(0,99,160,0.8);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
 /*sp版でのみ表示*/
 .phone-area {
   height: 200px;
@@ -165,12 +176,14 @@ body {
   margin-top: 6%;
 }
 
+/*スマホ*/
 @media screen and (max-width: 599px) {
   .btn-2, .btn-4 {
     margin-left: 4%;
   }
 }
 
+/*タブレット*/
 @media screen and (max-width: 1024px) {
   .main-content {
     top: 30px;
