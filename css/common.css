@@ -245,3 +245,21 @@ footer {
   border-top: gray solid 1px;
   margin-top: 100px;
 }
+
+/*sp版footer*/
+.sp-footer {
+  height: 650px;
+  background: linear-gradient(#505050, black);
+  display: none;
+}
+
+/*タブレット*/
+@media screen and (max-width: 1024px) {
+  footer {
+    display: none;
+  }
+
+  .sp-footer {
+    display: block;
+  }
+}
