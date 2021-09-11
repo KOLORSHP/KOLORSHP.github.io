@@ -196,12 +196,12 @@ nav a:hover {
   width: 50px;
 }
 
-/*.fullscreen .modal-body .sns p {
+.fullscreen .modal-body .sns p {
   position: absolute;
-  font-size: 30px;
-  left: 430px;
-  top: 28px;
-}*/
+  font-size: 2vw;
+  left: 56%;
+  top: 40%;
+}
 
 /*******footer*******/
 
@@ -327,13 +327,17 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer-sns {
     padding: 8% 0 0 35%;
   }
 
   .footer-p {
     right: 36%;
+  }
+
+  .fullscreen .modal-body .sns p {
+    left: 60%;
   }
 }
 
@@ -355,5 +359,10 @@ footer {
     top: 60%;
     left: 56%;
     font-size: 1px;
+  }
+
+  .fullscreen .modal-body .sns p {
+    top: 50%;
+    left: 70%;
   }
 }
