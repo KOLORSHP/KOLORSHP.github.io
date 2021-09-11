@@ -108,6 +108,33 @@ body {
   padding-bottom: 60%;
 }
 
+.sp-topic-title {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 7vw;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
+  font-weight: normal;
+  padding-top: 80px;
+}
+
+.sp-topic-title::before,
+.sp-topic-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: gray;
+}
+
+.sp-topic-title::before {
+  margin-right: 2%;
+}
+
+.sp-topic-title::after {
+  margin-left: 2%;
+}
+
 .sp-topic-content {
   padding-top: 80.09%;
   height: 0;
