@@ -259,6 +259,23 @@ footer {
   font-size: 4vw;
 }
 
+.sp-footer-content {
+  padding-top: 8%;
+  text-align: center;
+}
+
+.footer-link1 {
+  margin-right: 8%;
+}
+
+.footer-link3 {
+  margin: 0 8% 0 3%;
+}
+
+.footer-link4 {
+  margin-right: 4%;
+}
+
 .sp-footer-text {
   color: gray;
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
