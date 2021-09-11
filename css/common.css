@@ -280,12 +280,14 @@ footer {
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
     "Times New Roman", serif;
   padding: 3% 0 0 5%;
+  margin-top: 6%;
   border-top: gray solid 1px;
   font-size: 1vw;
 }
 
 .footer-sns {
   padding: 8% 0 0 38%;
+  position: relative;
 }
 
 .footer-icon1 {
@@ -300,6 +302,18 @@ footer {
 
 .footer-icon3 {
   width: 8%;
+}
+
+.footer-p {
+  color: red;
+  font-size: 2vw;
+  position: absolute;
+  top: 69%;
+  right: 34%;
+}
+
+.sp {
+  display: none;
 }
 
 /*タブレット*/
@@ -317,11 +331,29 @@ footer {
   .footer-sns {
     padding: 8% 0 0 35%;
   }
+
+  .footer-p {
+    right: 36%;
+  }
 }
 
 /*スマホ*/
 @media screen and (max-width: 599px) {
   .footer-sns {
     padding: 8% 0 0 35%;
+  }
+
+  .footer-p {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 60%;
+    left: 56%;
+    font-size: 1px;
   }
 }
