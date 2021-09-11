@@ -248,7 +248,6 @@ footer {
 
 /*sp版footer*/
 .sp-footer {
-  height: 650px;
   background: linear-gradient(#505050, black);
   display: none;
 }
@@ -280,8 +279,9 @@ footer {
   color: gray;
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
     "Times New Roman", serif;
-  padding: 30px 0 0 100px;
+  padding: 3% 0 0 5%;
   border-top: gray solid 1px;
+  font-size: 1vw;
 }
 
 .footer-sns {
@@ -322,6 +322,6 @@ footer {
 /*スマホ*/
 @media screen and (max-width: 599px) {
   .footer-sns {
-    padding: 8% 0 0 30%;
+    padding: 8% 0 0 35%;
   }
 }
