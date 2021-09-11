@@ -3,7 +3,7 @@
 }
 
 .news-title {
-  font-size: 70px;
+  font-size: 5vw;
   text-align: center;
   font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', serif;
   font-weight: normal;
@@ -21,10 +21,10 @@
 }
 
 .news-title::before {
-    margin-right: 5rem;
+    margin-right: 3%;
 }
 .news-title::after {
-    margin-left: 5rem;
+    margin-left: 3%;
 }
 
 .news-content {
