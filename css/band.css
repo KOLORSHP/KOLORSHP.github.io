@@ -1,6 +1,7 @@
 .band {
   height: 1200px;
-  font-family: "Baskerville", "Baskerville Old Face", "Garamond","Times New Roman", serif;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
 }
 
 .band-title {
@@ -40,7 +41,7 @@
 }
 
 .member img {
-  width:  300px;
+  width: 256px;
   padding: 0 10px 0 10px;
 }
 
@@ -54,9 +55,16 @@
   padding-top: 10px;
 }
 
+.sp-band {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
-  .member img {
-    width:  256px;
-    padding: 0 10px 0 10px;
+  .band {
+    display: none;
+  }
+
+  .sp-band {
+    display: block;
   }
 }
