@@ -104,8 +104,8 @@ body {
 
 /*sp版topic*/
 .sp-topic {
-  height: 1200px;
   display: none;
+  padding-bottom: 60%;
 }
 
 .sp-topic-content {
@@ -156,8 +156,8 @@ body {
 
 /*sp版でのみ表示*/
 .phone-area {
-  height: 200px;
   display: none;
+  padding: 10% 0 10% 0;
 }
 
 .phone-content {
@@ -181,6 +181,10 @@ body {
 @media screen and (max-width: 599px) {
   .btn-2, .btn-4 {
     margin-left: 4%;
+  }
+
+  .sp-topic-url {
+    width: 45%;
   }
 }
 
