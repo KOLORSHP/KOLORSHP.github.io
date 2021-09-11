@@ -174,7 +174,7 @@ nav a:hover {
 
 .fullscreen .modal-body a {
   color: white;
-  font-size: 30px;
+  font-size: 3vw;
   text-align: center;
 }
 
@@ -338,6 +338,10 @@ footer {
 
   .fullscreen .modal-body .sns p {
     left: 60%;
+  }
+
+  .fullscreen .modal-body a {
+    font-size: 5vw;
   }
 }
 
