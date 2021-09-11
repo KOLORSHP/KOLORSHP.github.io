@@ -30,10 +30,10 @@
 }
 
 .band-title::before {
-  margin-right: 2%;
+  margin-right: 3%;
 }
 .band-title::after {
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .member {
@@ -76,5 +76,13 @@
 
   .sp-band {
     display: block;
+  }
+
+  .name {
+    font-size: 1vw;
+  }
+
+  .name span {
+    font-size: 5vw;
   }
 }
