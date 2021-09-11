@@ -69,7 +69,7 @@ nav {
 .logo {
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
     "Times New Roman", serif;
-  font-size: 40px;
+  font-size: 3vw;
   letter-spacing: 6px;
   color: white;
 }
@@ -327,7 +327,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footer-sns {
     padding: 8% 0 0 35%;
   }
@@ -341,6 +341,10 @@ footer {
   }
 
   .fullscreen .modal-body a {
+    font-size: 5vw;
+  }
+
+  .logo {
     font-size: 5vw;
   }
 }
@@ -368,5 +372,14 @@ footer {
   .fullscreen .modal-body .sns p {
     top: 50%;
     left: 70%;
+  }
+
+  .navbar-toggler {
+    width: 30px;
+    height: 23px;
+  }
+
+  .logo {
+    font-size: 7vw;
   }
 }
