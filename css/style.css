@@ -74,7 +74,8 @@ body {
 .topic-content {
   margin: 30px auto 150px auto;
   height: 480px;
-  width: 100%;
+  width: 90%;
+  max-width: 1200px;
   background-image: url(../img/index_bg02.png);
   display: flex;
 }
@@ -86,7 +87,7 @@ body {
 }
 
 .topic-text {
-  font-size: 35px;
+  font-size: 29px;
   color: white;
   margin: 5% 0 0 10%;
 }
@@ -209,6 +210,21 @@ body {
   .main-content {
     top: 30px;
     left: 50px;
+  }
+
+  .topic-img {
+    width: 250px;
+    height: 250px;
+    margin: 12% 0 0 10%;
+  }
+
+  .topic-text {
+    font-size: 3vw;
+    margin: 10% 0 0 5%;
+  }
+
+  .topic-text span {
+    font-size: 6vw;
   }
 }
 
