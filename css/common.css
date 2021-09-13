@@ -328,7 +328,10 @@ footer {
   .logo {
     font-size: 30px;
   }
+}
 
+/*sp版に切り替え*/
+@media screen and (max-width: 767px) {
   footer {
     display: none;
   }
@@ -336,9 +339,7 @@ footer {
   .sp-footer {
     display: block;
   }
-}
 
-@media screen and (max-width: 768px) {
   .footer-sns {
     padding: 8% 0 0 35%;
   }
