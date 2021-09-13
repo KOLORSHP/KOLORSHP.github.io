@@ -69,7 +69,7 @@ nav {
 .logo {
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
     "Times New Roman", serif;
-  font-size: 3vw;
+  font-size: 40px;
   letter-spacing: 6px;
   color: white;
 }
@@ -325,6 +325,10 @@ footer {
 
 /*タブレット*/
 @media screen and (max-width: 1024px) {
+  .logo {
+    font-size: 30px;
+  }
+
   footer {
     display: none;
   }
