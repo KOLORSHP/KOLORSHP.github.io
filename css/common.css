@@ -271,7 +271,6 @@ footer {
 
 .footer-sns {
   padding: 8% 0 0 38%;
-  position: relative;
 }
 
 .footer-icon1 {
@@ -281,7 +280,7 @@ footer {
 
 .footer-icon2 {
   width: 7%;
-  margin-right: 8%;
+  margin-right: 6%;
 }
 
 .footer-icon3 {
@@ -310,7 +309,7 @@ footer {
   }
 
   .logo {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
 
@@ -330,11 +329,6 @@ footer {
 
   .fullscreen .modal-body .sns .icon3 {
     width: 45px;
-  }
-
-  .navbar-toggler {
-    width: 30px;
-    height: 23px;
   }
 
   .logo {
