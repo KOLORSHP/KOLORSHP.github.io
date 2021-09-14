@@ -175,15 +175,17 @@ nav a:hover {
 
 .fullscreen .modal-body .sns .icon1 {
   width: 35px;
+  margin-right: 9%;
 }
 
 .fullscreen .modal-body .sns .icon2 {
   width: 35px;
+  margin-right: 6%;
 }
 
 .fullscreen .modal-body .sns .icon3 {
   width: 60px;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 /*******footer*******/
@@ -307,10 +309,6 @@ footer {
     padding: 8% 0 0 35%;
   }
 
-  .fullscreen .modal-body a {
-    font-size: 5vw;
-  }
-
   .logo {
     font-size: 5vw;
   }
@@ -320,6 +318,18 @@ footer {
 @media screen and (max-width: 599px) {
   .footer-sns {
     padding: 8% 0 0 35%;
+  }
+
+  .fullscreen .modal-body .sns .icon1 {
+    width: 25px;
+  }
+
+  .fullscreen .modal-body .sns .icon2 {
+    width: 25px;
+  }
+
+  .fullscreen .modal-body .sns .icon3 {
+    width: 45px;
   }
 
   .navbar-toggler {
