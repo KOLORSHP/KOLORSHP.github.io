@@ -247,16 +247,30 @@ footer {
   text-align: center;
 }
 
+.sp-logo1 {
+  width: 25%;
+  margin-bottom: 5%;
+}
+
+.sp-logo2 {
+  width: 23%;
+  margin-bottom: 5%;
+}
+
+.sp-logo3 {
+  width: 25%;
+}
+
+.sp-logo4 {
+  width: 20%;
+}
+
 .footer-link1 {
   margin-right: 8%;
 }
 
 .footer-link3 {
-  margin: 0 8% 0 3%;
-}
-
-.footer-link4 {
-  margin-right: 4%;
+  margin-right: 9%;
 }
 
 .sp-footer-text {
