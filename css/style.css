@@ -20,8 +20,8 @@ body {
   display: flex;
   /*align-items: flex-start;*/
   position: absolute;
-  top: 80px;
-  left: 140px;
+  top: 10%;
+  left: 15%;
 }
 
 .main-img {
@@ -207,11 +207,6 @@ body {
 
 /*タブレット*/
 @media screen and (max-width: 1024px) {
-  .main-content {
-    top: 30px;
-    left: 50px;
-  }
-
   .topic-img {
     width: 250px;
     height: 250px;
