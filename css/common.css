@@ -114,24 +114,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-.sns p {
-  color: #d10000;
-  position: absolute;
-  top: 15px;
-  left: 90px;
-  font-size: 15px;
-  text-align: center;
-  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN",
-    "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",
-    sans-serif;
-}
-
-/*.sns p:last-child {
-  position: absolute;
-  top: 30px;
-  left: 100px;
-}
-
 /*ハンバーガーメニュー*/
 
 .fullscreen .modal-header {
@@ -201,13 +183,6 @@ nav a:hover {
 
 .fullscreen .modal-body .sns .icon3 {
   width: 50px;
-}
-
-.fullscreen .modal-body .sns p {
-  position: absolute;
-  font-size: 2vw;
-  left: 56%;
-  top: 40%;
 }
 
 /*******footer*******/
@@ -311,18 +286,6 @@ footer {
   width: 8%;
 }
 
-.footer-p {
-  color: red;
-  font-size: 2vw;
-  position: absolute;
-  top: 69%;
-  right: 34%;
-}
-
-.sp {
-  display: none;
-}
-
 /*タブレット*/
 @media screen and (max-width: 1024px) {
   .logo {
@@ -344,14 +307,6 @@ footer {
     padding: 8% 0 0 35%;
   }
 
-  .footer-p {
-    right: 36%;
-  }
-
-  .fullscreen .modal-body .sns p {
-    left: 60%;
-  }
-
   .fullscreen .modal-body a {
     font-size: 5vw;
   }
@@ -365,25 +320,6 @@ footer {
 @media screen and (max-width: 599px) {
   .footer-sns {
     padding: 8% 0 0 35%;
-  }
-
-  .footer-p {
-    display: none;
-  }
-
-  .sp {
-    display: block;
-    text-align: center;
-    color: red;
-    position: absolute;
-    top: 60%;
-    left: 56%;
-    font-size: 1px;
-  }
-
-  .fullscreen .modal-body .sns p {
-    top: 50%;
-    left: 70%;
   }
 
   .navbar-toggler {
@@ -417,9 +353,5 @@ footer {
 
   .logo {
     font-size: 30px;
-  }
-
-  .sns p {
-    left: 65px;
   }
 }
