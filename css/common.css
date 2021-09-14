@@ -174,15 +174,16 @@ nav a:hover {
 }
 
 .fullscreen .modal-body .sns .icon1 {
-  width: 45px;
+  width: 35px;
 }
 
 .fullscreen .modal-body .sns .icon2 {
-  width: 45px;
+  width: 35px;
 }
 
 .fullscreen .modal-body .sns .icon3 {
-  width: 50px;
+  width: 60px;
+  margin-bottom: 2%;
 }
 
 /*******footer*******/
