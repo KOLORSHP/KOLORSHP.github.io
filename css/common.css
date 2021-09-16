@@ -227,11 +227,11 @@ footer {
 /*sp版に切り替え*/
 @media screen and (max-width: 767px) {
   body {
-    padding-top: 60px;
+    padding-top: 63px;
   }
 
   nav {
-    height: 60px;
+    height: 63px;
   }
 
   .nav-item {
@@ -241,7 +241,6 @@ footer {
 
   .navbar-collapse {
     background: linear-gradient(black, #2b2b2b);
-    margin-top: 7px;
     margin-right: -15px;
     margin-left: -15px;
     opacity: 0.9;
