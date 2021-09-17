@@ -18,10 +18,9 @@ body {
 
 .main-content {
   display: flex;
-  /*align-items: flex-start;*/
   position: absolute;
   top: 10%;
-  left: 15%;
+  left: 10%;
 }
 
 .main-img {
