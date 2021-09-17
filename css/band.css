@@ -5,7 +5,7 @@
 }
 
 .band-title {
-  font-size: 5vw;
+  font-size: 70px;
   text-align: center;
   font-weight: normal;
   padding-top: 40px;
@@ -70,6 +70,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .band-title {
+    font-size: 50px;
+  }
+
   .band {
     display: none;
   }
@@ -84,5 +88,11 @@
 
   .name span {
     font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .band-title {
+    font-size: 30px;
   }
 }
