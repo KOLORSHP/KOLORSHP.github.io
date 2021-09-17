@@ -18,10 +18,9 @@ body {
 
 .main-content {
   display: flex;
-  /*align-items: flex-start;*/
   position: absolute;
-  top: 80px;
-  left: 140px;
+  top: 10%;
+  left: 10%;
 }
 
 .main-img {
@@ -36,6 +35,8 @@ body {
   font-size: 5vw;
   padding: 5% 0 0 15%;
   line-height: 1.5;
+  /*safariでのレイアウト崩れに対応*/
+  width: 70%;
 }
 
 .main-text span {
@@ -74,7 +75,8 @@ body {
 .topic-content {
   margin: 30px auto 150px auto;
   height: 480px;
-  width: 100%;
+  width: 90%;
+  max-width: 1200px;
   background-image: url(../img/index_bg02.png);
   display: flex;
 }
@@ -86,7 +88,7 @@ body {
 }
 
 .topic-text {
-  font-size: 35px;
+  font-size: 29px;
   color: white;
   margin: 5% 0 0 10%;
 }
@@ -204,24 +206,26 @@ body {
   margin-top: 6%;
 }
 
-/*スマホ*/
-@media screen and (max-width: 599px) {
-  .btn-2, .btn-4 {
-    margin-left: 4%;
+/*タブレット*/
+@media screen and (max-width: 1024px) {
+  .topic-img {
+    width: 250px;
+    height: 250px;
+    margin: 12% 0 0 10%;
   }
 
-  .sp-topic-url {
-    width: 45%;
+  .topic-text {
+    font-size: 3vw;
+    margin: 10% 0 0 5%;
+  }
+
+  .topic-text span {
+    font-size: 6vw;
   }
 }
 
-/*タブレット*/
-@media screen and (max-width: 1024px) {
-  .main-content {
-    top: 30px;
-    left: 50px;
-  }
-
+/*sp版に切り替え*/
+@media screen and (max-width: 767px) {
   .phone-area {
     display: block;
   }
@@ -232,5 +236,16 @@ body {
 
   .sp-topic {
     display: block;
+  }
+}
+
+/*スマホ*/
+@media screen and (max-width: 599px) {
+  .btn-2, .btn-4 {
+    margin-left: 4%;
+  }
+
+  .sp-topic-url {
+    width: 45%;
   }
 }
