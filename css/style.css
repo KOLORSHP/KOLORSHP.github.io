@@ -36,6 +36,8 @@ body {
   font-size: 5vw;
   padding: 5% 0 0 15%;
   line-height: 1.5;
+  /*safariでのレイアウト崩れに対応*/
+  width: 70%;
 }
 
 .main-text span {
