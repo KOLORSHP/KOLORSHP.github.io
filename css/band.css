@@ -1,0 +1,88 @@
+.band {
+  height: 1200px;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
+}
+
+.band-title {
+  font-size: 5vw;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.band-title::before,
+.band-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.band-title::before,
+.band-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.band-title::before {
+  margin-right: 3%;
+}
+.band-title::after {
+  margin-left: 3%;
+}
+
+.member {
+  margin: 0 auto;
+}
+
+.member img {
+  width: 256px;
+  padding: 0 10px 0 10px;
+}
+
+.name {
+  text-align: center;
+  font-size: 30px;
+}
+
+.part {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.sp-band {
+  display: none;
+}
+
+.sp-band-content {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.sp-member img {
+  width: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+  .band {
+    display: none;
+  }
+
+  .sp-band {
+    display: block;
+  }
+
+  .name {
+    font-size: 2vw;
+  }
+
+  .name span {
+    font-size: 5vw;
+  }
+}
