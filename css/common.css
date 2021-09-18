@@ -108,8 +108,6 @@ nav a:hover {
 
 footer {
   background: linear-gradient(#505050, black);
-  position: fixed;
-  bottom: 0;
 }
 
 .footer-title {
@@ -152,8 +150,6 @@ footer {
 .sp-footer {
   background: linear-gradient(#505050, black);
   display: none;
-  position: fixed;
-  bottom: 0;
 }
 
 .sp-footer-title {
