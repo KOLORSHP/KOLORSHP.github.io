@@ -127,3 +127,13 @@
     width: 30px;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .single02-content img {
+    width: 500px;
+  }
+
+  .single02-song img {
+    width: 30px;
+  }
+}
