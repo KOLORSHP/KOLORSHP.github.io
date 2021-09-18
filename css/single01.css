@@ -35,10 +35,10 @@
 }
 
 .single01-title h1::before {
-  margin-right: 8rem;
+  margin-right: 19%;
 }
 .single01-title h1::after {
-  margin-left: 8rem;
+  margin-left: 19%;
 }
 
 .single01-content {
@@ -91,5 +91,47 @@
   color: white;
   text-decoration: none;
   border-radius: 10px;
-  font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .single01-title h1 {
+    font-size: 50px;
+  }
+
+  .link_btn {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .single01-title h1 {
+    font-size: 30px;
+  }
+
+  .single01-title p {
+    font-size: 15px;
+  }
+
+  .link_btn {
+    width: 210px;
+    font-size: 8px;
+  }
+
+  .single01-content img {
+    width: 150px;
+  }
+
+  .single01-song img {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .single01-content img {
+    width: 500px;
+  }
+
+  .single01-song img {
+    width: 30px;
+  }
 }
