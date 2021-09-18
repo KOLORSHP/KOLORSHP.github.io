@@ -93,5 +93,37 @@
   color: white;
   text-decoration: none;
   border-radius: 10px;
-  font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .single02-title h1 {
+    font-size: 50px;
+  }
+
+  .link_btn {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .single02-title h1 {
+    font-size: 30px;
+  }
+
+  .single02-title p {
+    font-size: 15px;
+  }
+
+  .link_btn {
+    width: 210px;
+    font-size: 8px;
+  }
+
+  .single02-content img {
+    width: 150px;
+  }
+
+  .single02-song img {
+    width: 30px;
+  }
 }
