@@ -22,10 +22,10 @@
 }
 
 .discography-title::before {
-  margin-right: 5rem;
+  margin-right: 3%;
 }
 .discography-title::after {
-  margin-left: 5rem;
+  margin-left: 3%;
 }
 
 .discography-content h2 {
@@ -42,7 +42,7 @@
 
 .tab_item {
   display: inline-block;
-  font-size: 45px;
+  font-size: 2vw;
 }
 
 .tab_item:hover {
@@ -72,7 +72,7 @@ input[name="tab_item"] {
 }
 
 .tab_content_description img {
-  width: 19%;
+  width: 20%;
   margin: 70px 30px 0 0;
   float: left;
 }
@@ -80,4 +80,34 @@ input[name="tab_item"] {
 .tabs input:checked + .tab_item {
   color: #ff6464;
   border-bottom: solid 2px;
+}
+
+/*タブレット*/
+@media screen and (max-width: 1024px) {
+  .discography-title {
+    font-size: 50px;
+  }
+
+  .tab_content_description img {
+    width: 25%;
+  }
+
+  .tab_item {
+    font-size: 4vw;
+  }
+
+  .tab_content_description {
+    overflow: hidden;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .discography-title {
+    font-size: 30px;
+  }
+
+  .tab_content_description img {
+    margin: 30px 20px 0 0;
+  }
 }
