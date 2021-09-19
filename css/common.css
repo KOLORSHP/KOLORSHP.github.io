@@ -108,6 +108,8 @@ nav a:hover {
 
 footer {
   background: linear-gradient(#505050, black);
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-title {
@@ -146,10 +148,20 @@ footer {
   margin-top: 6%;
 }
 
+.footerFixed {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 580px;
+  box-sizing: border-box;
+}
+
+
 /*sp版footer*/
 .sp-footer {
   background: linear-gradient(#505050, black);
   display: none;
+  position: absolute;
+  bottom: 0;
 }
 
 .sp-footer-title {
@@ -279,6 +291,10 @@ footer {
 
   .logo {
     font-size: 20px;
+  }
+
+  .footerFixed {
+    padding-bottom: 300px;
   }
 }
 
