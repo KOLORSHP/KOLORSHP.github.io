@@ -4,7 +4,7 @@
 }
 
 .contact-title {
-  font-size: 70px;
+  font-size: 5vw;
   text-align: center;
   font-weight: normal;
   padding-top: 40px;
@@ -48,10 +48,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .contact-title {
-    font-size: 50px;
-  }
-
   .contact-content {
     padding: 10% 0 0 10%;
     font-size: 2vw;
@@ -59,11 +55,5 @@
 
   .contact-content p:last-child {
     font-size: 1vw;
-  }
-}
-
-@media screen and (max-width: 599px) {
-  .contact-title {
-    font-size: 30px;
   }
 }

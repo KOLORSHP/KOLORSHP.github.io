@@ -12,7 +12,7 @@
 }
 
 .single02-title h1 {
-  font-size: 70px;
+  font-size: 5vw;
   text-align: center;
   font-weight: normal;
   display: flex;
@@ -96,20 +96,12 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .single02-title h1 {
-    font-size: 50px;
-  }
-
   .link_btn {
     width: 340px;
   }
 }
 
 @media screen and (max-width: 599px) {
-  .single02-title h1 {
-    font-size: 30px;
-  }
-
   .single02-title p {
     font-size: 15px;
   }
