@@ -5,7 +5,8 @@
 .news-title {
   font-size: 5vw;
   text-align: center;
-  font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', serif;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
   font-weight: normal;
   padding-top: 40px;
   display: flex;
@@ -14,17 +15,17 @@
 
 .news-title::before,
 .news-title::after {
-    content: "";
-    height: 1px;
-    flex-grow: 1;
-    background-color: black;
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
 }
 
 .news-title::before {
-    margin-right: 3%;
+  margin-right: 3%;
 }
 .news-title::after {
-    margin-left: 3%;
+  margin-left: 3%;
 }
 
 .news-content {
@@ -34,6 +35,7 @@
 .title {
   padding-top: 20px;
   padding-left: 130px;
+  position: relative;
 }
 
 .title p {
@@ -57,7 +59,16 @@
   font-size: 25px;
   padding-left: 120px;
   padding-top: 35px;
-  font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN",
+    "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",
+    sans-serif;
+}
+
+.share {
+  width: 30px;
+  position: absolute;
+  top: 70%;
+  right: 15%;
 }
 
 .detail {
@@ -85,6 +96,12 @@
   display: none;
 }
 
+@media screen and (min-width: 1600px) {
+  .share {
+    left: 1400px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .title {
     padding-left: 40px;
@@ -107,6 +124,19 @@
   .detail {
     font-size: 15px;
   }
+
+  .share {
+    width: 25px;
+    top: 70%;
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .share {
+    top: 20%;
+    right: 8%;
+  }
 }
 
 @media screen and (max-width: 599px) {
@@ -116,6 +146,11 @@
 
   .title h2 {
     font-size: 21px;
+  }
+
+  .share {
+    width: 20px;
+    top: 100%;
   }
 
   .news-img {
