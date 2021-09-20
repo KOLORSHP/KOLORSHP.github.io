@@ -69,20 +69,26 @@
   width: 30%;
 }
 
+.sp-member p {
+  font-size: 2vw;
+}
+
+.sp-member p span {
+  font-size: 4vw;
+}
+
 @media screen and (max-width: 1024px) {
+  .member img {
+    width: 192px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .band {
     display: none;
   }
 
   .sp-band {
     display: block;
-  }
-
-  .name {
-    font-size: 2vw;
-  }
-
-  .name span {
-    font-size: 5vw;
   }
 }
