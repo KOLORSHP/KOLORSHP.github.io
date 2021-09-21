@@ -19,21 +19,21 @@ body {
 .main-content {
   display: flex;
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 8%;
+  left: 7%;
 }
 
 .main-img {
   width: 35%;
   height: 35%;
-  margin-top: 6%;
+  margin-top: 8%;
 }
 
 .main-text {
   color: white;
   font-family: "Impact", "Charcoal", "Arial Black", sans-serif;
   font-size: 6vw;
-  padding: 5% 0 0 10%;
+  padding: 8% 0 0 12%;
   line-height: 1.5;
   /*safariでのレイアウト崩れに対応*/
   width: 70%;
