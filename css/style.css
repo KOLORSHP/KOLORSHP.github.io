@@ -32,15 +32,15 @@ body {
 .main-text {
   color: white;
   font-family: "Impact", "Charcoal", "Arial Black", sans-serif;
-  font-size: 5vw;
-  padding: 8% 0 0 12%;
+  font-size: 6vw;
+  padding: 5% 0 0 10%;
   line-height: 1.5;
   /*safariでのレイアウト崩れに対応*/
   width: 70%;
 }
 
 .main-text span {
-  font-size: 7vw;
+  font-size: 8vw;
 }
 
 /*******topic*******/
