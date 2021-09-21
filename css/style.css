@@ -82,9 +82,9 @@ body {
 }
 
 .topic-img {
-  width: 320px;
-  height: 320px;
-  margin: 7% 0 0 10%;
+  width: 340px;
+  height: 340px;
+  margin: 6% 0 0 13%;
 }
 
 .topic-text {
@@ -204,6 +204,15 @@ body {
 
 .btn-3, .btn-4 {
   margin-top: 6%;
+}
+
+/*topicずれ修正用*/
+@media screen and (max-width: 1250px) {
+  .topic-img {
+    width: 300px;
+    height: 300px;
+    margin: 7% 0 0 10%;
+  }
 }
 
 /*タブレット*/
