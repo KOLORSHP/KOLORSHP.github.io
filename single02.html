@@ -71,6 +71,7 @@
           <div class="single02-song">
             <p class="record">収録内容</p>
             <div class="song01">
+              <audio id="audio01" src="sounds/siml.wav"></audio>
               <button type="image" id="btn-play" class="btn-play"><img src="assets/img/discography_icon01.png" alt="再生"></button>
               <p>01.Stay in my life</p>
             </div>
@@ -141,3 +142,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<script>
+  const audio01 = document.querySelector("#audio01");
+  const btn  = document.querySelector("#btn-play");
+
+  btn.addEventListener("click", ()=>{
+    // pausedがtrue=>停止, false=>再生中
+    if( ! audio01.paused ){
+      btn.innerHTML = '<img class="btn-play" src="assets/img/discography_icon01.png" alt="再生">';  // 「再生ボタン」に切り替え
+      audio01.pause();
+      audio01.currentTime = 0;
+    }
+    else{
+      btn.innerHTML = '<img class="btn-play" src="assets/img/discography_icon02.png" alt="一時停止">';  // 「一時停止ボタン」に切り替え
+      audio01.play();
+      audio01.currentTime = 0;
+    }
+  });
+
+  /**
+   * [event] 再生終了時に実行
+   */
+   audio01.addEventListener("ended", ()=>{
+    audio01.currentTime = 0;  // 再生位置を先頭に移動
+    btn.innerHTML = '<img src="assets/img/discography_icon01.png" alt="再生">';  // 「再生ボタン」に変更
+  });
+</script>
