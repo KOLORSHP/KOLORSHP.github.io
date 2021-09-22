@@ -95,6 +95,10 @@
   border-radius: 10px;
 }
 
+.link_btn:hover {
+  color: white;
+}
+
 @media screen and (max-width: 1024px) {
   .link_btn {
     width: 340px;
