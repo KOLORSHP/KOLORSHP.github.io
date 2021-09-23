@@ -190,7 +190,7 @@ body {
 }
 
 .phone-content {
-  width: 60%;
+  width: 80%;
   margin: 8% auto;
 }
 
@@ -251,7 +251,7 @@ body {
 /*スマホ*/
 @media screen and (max-width: 599px) {
   .btn-2, .btn-4 {
-    margin-left: 4%;
+    margin-left: 7%;
   }
 
   .sp-topic-url {
