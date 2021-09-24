@@ -101,6 +101,10 @@
   .link_btn {
     width: 340px;
   }
+
+  .single01-title h1 {
+    font-size: 8vw;
+  }
 }
 
 @media screen and (max-width: 599px) {
