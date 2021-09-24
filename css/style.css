@@ -45,6 +45,10 @@ body {
 
 /*******topic*******/
 
+.topic {
+  padding-bottom: 20%;
+}
+
 .topic-title {
   display: flex;
   align-items: center;
