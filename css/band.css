@@ -36,13 +36,12 @@
 }
 
 .member {
-  width: 80%;
-  margin: 70px auto;
+  margin: 0 auto;
 }
 
 .member img {
-  width: 300px;
-  padding: 0 10px;
+  width:  300px;
+  padding: 0 10px 0 10px;
 }
 
 .name {
@@ -53,4 +52,11 @@
 .part {
   text-align: center;
   padding-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .member img {
+    width:  256px;
+    padding: 0 10px 0 10px;
+  }
 }

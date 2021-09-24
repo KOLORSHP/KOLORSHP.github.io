@@ -4,51 +4,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/common.css" />
     <title>Kolors Official</title>
   </head>
 
   <body>
-    <header>
-      <div class="header-group">
-        <a href="index.html">
-          <h2 class="logo">KOLORS</h2>
-        </a>
+    <header class="w-100">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand logo" href="index.html">KOLORS</a>
+        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-backdrop="false">
+          <span class="navbar-toggler-icon">
+            <span id="line1"></span>
+            <span id="line2"></span>
+            <span id="line3"></span>
+          </span>
+        </button>
 
-        <nav>
-          <ul class="nav">
-            <li class="nav-list">
-              <a href="news.html">News</a>
+        <!--モーダルウィンドウ-->
+        <div class="modal fade fullscreen" id="menuModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header mt-2">
+                <h1 class="logo">KOLORS</h1>
+                <button type="button" class="navbar-toggler" data-dismiss="modal" aria-label="Close">
+                  <span class="navbar-toggler-icon">
+                    <span id="line4"></span>
+                  </span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul style="list-style-type:none;">
+                  <li class="nav-item pt-5 pb-5">
+                    <a class="nav-link" href="news.html">NEWS</a>
+                  </li>
+                  <li class="nav-item pt-5 pb-5">
+                    <a class="nav-link" href="band.html">BAND</a>
+                  </li>
+                  <li class="nav-item pt-5 pb-5">
+                    <a class="nav-link" href="live.html">LIVE</a>
+                  </li>
+                  <li class="nav-item pt-5 pb-5">
+                    <a class="nav-link" href="discography.html">DISCOGRAPHY</a>
+                  </li>
+                  <li class="nav-item pt-5 pb-5">
+                    <a class="nav-link" href="https://lnk.to/KOLORSmusic" target="_blank" rel="noopener noreferrer">STORE</a>
+                  </li>
+                  <li class="nav-item pt-5 pb-5">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                  </li>
+                  <div class="sns mt-4">
+                    <a class=" mr-5" href="https://instagram.com/kolors__official?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
+                      <img class="icon1" src="assets/img/header_icon01.png" alt="Instagram">
+                    </a>
+                    <a class="mr-5" href="https://twitter.com/KLS__official" target="_blank" rel="noopener noreferrer">
+                      <img class="icon2" src="assets/img/header_icon02.png" alt="twitter">
+                    </a>
+                    <img class="icon3 mb-2" src="assets/img/header_icon03.png" alt="youtube">
+                    <!--p>Coming Soon</p!-->
+                  </div>
+                </ul>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.fullscreen -->
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mt-4 mr-3">
+              <a class="nav-link" href="news.html">News</a>
             </li>
-            <li class="nav-list">
-              <a href="band.html">Band</a>
+            <li class="nav-item mt-4 mr-3">
+              <a class="nav-link" href="band.html">Band</a>
             </li>
-            <li class="nav-list">
-              <a href="live.html">Live</a>
+            <li class="nav-item mt-4 mr-3">
+              <a class="nav-link" href="live.html">Live</a>
             </li>
-            <li class="nav-list">
-              <a href="discography.html">Discography</a>
+            <li class="nav-item mt-4 mr-3">
+              <a class="nav-link" href="discography.html">Discography</a>
             </li>
-            <li class="nav-list">
-              <a href="https://lnk.to/KOLORSmusic" target="_blank" rel="noopener noreferrer">Store</a>
+            <li class="nav-item mt-4 mr-3">
+              <a class="nav-link" href="https://lnk.to/KOLORSmusic" target="_blank" rel="noopener noreferrer">Store</a>
             </li>
-            <li class="nav-list">
-              <a href="contact.html">Contact</a>
+            <li class="nav-item mt-4 ">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <div class="sns">
-              <a href="https://instagram.com/kolors__official?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
-                <img class="icon icon1" src="assets/img/header_icon01.png" alt="Instagram">
+
+            <div class="sns mt-4 ml-3">
+              <a class="mr-3" href="https://instagram.com/kolors__official?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
+                <img class="icon1" src="assets/img/header_icon01.png" alt="Instagram">
               </a>
-              <a href="https://twitter.com/KLS__official" target="_blank" rel="noopener noreferrer">
-                <img class="icon icon2" src="assets/img/header_icon02.png" alt="twitter">
+              <a class="mr-3" href="https://twitter.com/KLS__official" target="_blank" rel="noopener noreferrer">
+                <img class="icon2" src="assets/img/header_icon02.png" alt="twitter">
               </a>
-              <img class="icon icon3" src="assets/img/header_icon03.png" alt="youtube">
-              <p>Coming Soon</p>
+              <img class="icon3" src="assets/img/header_icon03.png" alt="youtube">
+              <p>Coming</p>
+              <p>Soon</p>
             </div>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <section class="contact">
@@ -59,8 +115,6 @@
         <p>*お名前、件名、返信用ご連絡先は必ずお書きください。</p>
       </div>
     </section>
-
-
 
     <footer>
       <p class="footer-title">Music</p>
@@ -82,5 +136,9 @@
         <p>©️KOLORS All Rights Reserved</p>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>
