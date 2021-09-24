@@ -1,10 +1,10 @@
 .live {
-  height: 1000px;
+  height: 100vh;
   font-family: "Baskerville", "Baskerville Old Face", "Garamond","Times New Roman", serif;
 }
 
 .live-title {
-  font-size: 70px;
+  font-size: 5vw;
   text-align: center;
   font-weight: normal;
   padding-top: 40px;
@@ -21,13 +21,20 @@
 }
 
 .live-title::before {
-  margin-right: 5rem;
+  margin-right: 3%;
 }
 .live-title::after {
-  margin-left: 5rem;
+  margin-left: 3%;
 }
 
 .live-content {
   font-size: 35px;
   padding: 140px 0 0 180px;
+}
+
+@media screen and (max-width: 1024px) {
+  .live-content {
+    padding: 10% 0 0 10%;
+    font-size: 3vw;
+  }
 }

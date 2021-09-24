@@ -12,7 +12,7 @@
 }
 
 .single02-title h1 {
-  font-size: 70px;
+  font-size: 5vw;
   text-align: center;
   font-weight: normal;
   display: flex;
@@ -93,5 +93,47 @@
   color: white;
   text-decoration: none;
   border-radius: 10px;
-  font-size: 18px;
+}
+
+.link_btn:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .link_btn {
+    width: 340px;
+  }
+
+  .single02-title h1 {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .single02-title p {
+    font-size: 15px;
+  }
+
+  .link_btn {
+    width: 210px;
+    font-size: 8px;
+  }
+
+  .single02-content img {
+    width: 150px;
+  }
+
+  .single02-song img {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .single02-content img {
+    width: 500px;
+  }
+
+  .single02-song img {
+    width: 30px;
+  }
 }
