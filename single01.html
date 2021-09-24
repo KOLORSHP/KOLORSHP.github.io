@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/news.css" />
+    <link rel="stylesheet" href="css/single01.css" />
     <link rel="stylesheet" href="css/common.css" />
     <title>Kolors Official</title>
   </head>
@@ -107,41 +107,30 @@
       </nav>
     </header>
 
-    <section class="news">
-      <h1 class="news-title">NEWS</h1>
-      <div class="title">
-        <p>2021.9.30</p>
-        <h2>2nd Single 『Stay in my life』リリース！</h2>
+    <section class="single01">
+      <div class="single01-title">
+        <p>1st Single</p>
+        <h1>BLUE</h1>
       </div>
-      <div class="news-content">
-        <img class="news-img" src="img/common_img02.png" alt="Blue Jacket">
-        <div class="news-text">
-          <p>2nd Single『Stay in my life』が本日よりリリースとなりました。</p>
-          <p>各ストリーミングサービスにて絶賛配信中です。</p>
-          <p class="detail">詳細 <br> 1. Stay in my life</p>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            楽曲配信サイトはコチラ
-          </a>
-        </div>
-      </div>
-      <div class="news-line"></div>
 
-      <div class="title">
-        <p>2021.5.25</p>
-        <h2>1st Single 『BLUE』リリース！</h2>
-      </div>
-      <div class="news-content">
-        <img class="news-img" src="img/common_img01.png" alt="Blue Jacket">
-        <div class="news-text">
-          <p>1st Single『BLUE』が本日よりリリースとなりました。</p>
-          <p>各ストリーミングサービスにて絶賛配信中です。</p>
-          <p class="detail">詳細 <br> 1.BLUE / 2.After the Rain</p>
-          <a href="https://linkco.re/Srp0Rp3U" target="_blank" rel="noopener noreferrer">
-            楽曲配信サイトはコチラ
-          </a>
+      <div class="single01-content">
+        <img src="img/common_img01.png" alt="Jacket">
+        <p>2021.5.21 Release</p>
+        <div class="single01-song">
+          <p class="record">収録内容</p>
+          <div class="song01">
+            <audio id="audio01" src="sounds/blue.wav"></audio>
+            <button type="image" id="btn-play1" class="btn-play"><img src="assets/img/discography_icon01.png" alt="再生"></button>
+            <p>01.BLUE</p>
+          </div>
+          <div class="song02">
+            <audio id="audio02" src="sounds/afr.wav"></audio>
+            <button type="image" id="btn-play2" class="btn-play"><img src="assets/img/discography_icon01.png" alt="再生"></button>
+            <p>02.After the Rain</p>
+          </div>
         </div>
+        <a class="link_btn" href="https://linkco.re/Srp0Rp3U" target="_blank" rel="noopener noreferrer">楽曲配信及びダウンロードサイトはコチラ</a>
       </div>
-      <div class="news-line"></div>
     </section>
 
     <footer>
@@ -170,3 +159,50 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<script>
+  const audio01 = document.querySelector("#audio01");
+  const audio02 = document.querySelector("#audio02");
+  const btn  = document.querySelector("#btn-play1");
+  const btn2 = document.querySelector("#btn-play2");
+
+  btn.addEventListener("click", ()=>{
+    // pausedがtrue=>停止, false=>再生中
+    if( ! audio01.paused ){
+      btn.innerHTML = '<img class="btn-play" src="assets/img/discography_icon01.png" alt="再生">';  // 「再生ボタン」に切り替え
+      audio01.pause();
+      audio01.currentTime = 0;
+    }
+    else{
+      btn.innerHTML = '<img class="btn-play" src="assets/img/discography_icon02.png" alt="一時停止">';  // 「一時停止ボタン」に切り替え
+      audio01.play();
+      audio01.currentTime = 0;
+    }
+  });
+
+  btn2.addEventListener("click", ()=>{
+    // pausedがtrue=>停止, false=>再生中
+    if( ! audio02.paused ){
+      btn2.innerHTML = "<img src='assets/img/discography_icon01.png'>";  // 「再生ボタン」に切り替え
+      audio02.pause();
+      audio02.currentTime = 0;
+    }
+    else{
+      btn2.innerHTML = '<img src="assets/img/discography_icon02.png" alt="一時停止">';  // 「一時停止ボタン」に切り替え
+      audio02.play();
+    }
+  });
+
+  /**
+   * [event] 再生終了時に実行
+   */
+   audio01.addEventListener("ended", ()=>{
+    audio01.currentTime = 0;  // 再生位置を先頭に移動
+    btn.innerHTML = '<img src="assets/img/discography_icon01.png" alt="再生">';  // 「再生ボタン」に変更
+  });
+
+  audio02.addEventListener("ended", ()=>{
+    audio02.currentTime = 0;  // 再生位置を先頭に移動
+    btn2.innerHTML = '<img src="assets/img/discography_icon01.png" alt="一時停止">';  // 「再生ボタン」に変更
+  });
+</script>

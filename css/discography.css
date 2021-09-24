@@ -1,0 +1,83 @@
+.discography {
+  height: 1000px;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
+}
+
+.discography-title {
+  font-size: 70px;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.discography-title::before,
+.discography-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.discography-title::before {
+  margin-right: 5rem;
+}
+.discography-title::after {
+  margin-left: 5rem;
+}
+
+.discography-content h2 {
+  font-weight: normal;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.tabs {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.tab_item {
+  display: inline-block;
+  font-size: 45px;
+}
+
+.tab_item:hover {
+  cursor: pointer;
+}
+
+#tab_separate:hover {
+  color: black;
+}
+
+input[name="tab_item"] {
+  display: none;
+}
+
+.tab_content {
+  display: none;
+}
+
+#single:checked ~ #single_content,
+#album:checked ~ #album_content {
+  display: block;
+}
+
+.tab_content_description {
+  overflow: hidden;
+  margin-left: 150px;
+}
+
+.tab_content_description img {
+  width: 19%;
+  margin: 70px 30px 0 0;
+  float: left;
+}
+
+.tabs input:checked + .tab_item {
+  color: #ff6464;
+  border-bottom: solid 2px;
+}

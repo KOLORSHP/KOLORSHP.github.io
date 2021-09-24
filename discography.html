@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/news.css" />
+    <link rel="stylesheet" href="css/discography.css" />
     <link rel="stylesheet" href="css/common.css" />
     <title>Kolors Official</title>
   </head>
@@ -107,41 +107,25 @@
       </nav>
     </header>
 
-    <section class="news">
-      <h1 class="news-title">NEWS</h1>
-      <div class="title">
-        <p>2021.9.30</p>
-        <h2>2nd Single 『Stay in my life』リリース！</h2>
-      </div>
-      <div class="news-content">
-        <img class="news-img" src="img/common_img02.png" alt="Blue Jacket">
-        <div class="news-text">
-          <p>2nd Single『Stay in my life』が本日よりリリースとなりました。</p>
-          <p>各ストリーミングサービスにて絶賛配信中です。</p>
-          <p class="detail">詳細 <br> 1. Stay in my life</p>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            楽曲配信サイトはコチラ
-          </a>
+    <section class="discography">
+      <h1 class="discography-title">DISCOGRAPHY</h1>
+      <div class="tabs">
+        <input id="single" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="single">SINGLE</label>
+        <label class="tab_item" id="tab_separate">/</label>
+        <input type="radio" name="tab_item" id="album">
+        <label class="tab_item" for="album">ALBUM</label>
+        <div class="tab_content" id="single_content">
+          <div class="tab_content_description">
+            <a class="single02-img" href="single02.html"><img src="img/common_img02.png" alt="Jacket"></a>
+            <a class="single01-img" href="single01.html"><img src="img/common_img01.png" alt="Jacket"></a>
+          </div>
+        </div>
+        <div class="tab_content" id="album_content">
+          <div class="tab_content_description">
+          </div>
         </div>
       </div>
-      <div class="news-line"></div>
-
-      <div class="title">
-        <p>2021.5.25</p>
-        <h2>1st Single 『BLUE』リリース！</h2>
-      </div>
-      <div class="news-content">
-        <img class="news-img" src="img/common_img01.png" alt="Blue Jacket">
-        <div class="news-text">
-          <p>1st Single『BLUE』が本日よりリリースとなりました。</p>
-          <p>各ストリーミングサービスにて絶賛配信中です。</p>
-          <p class="detail">詳細 <br> 1.BLUE / 2.After the Rain</p>
-          <a href="https://linkco.re/Srp0Rp3U" target="_blank" rel="noopener noreferrer">
-            楽曲配信サイトはコチラ
-          </a>
-        </div>
-      </div>
-      <div class="news-line"></div>
     </section>
 
     <footer>

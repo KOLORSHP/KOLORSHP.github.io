@@ -1,0 +1,95 @@
+.single01 {
+  height: 1000px;
+  font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+    'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.single01-title {
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
+}
+
+.single01-title h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond",
+    "Times New Roman", serif;
+}
+
+.single01-title p {
+  text-align: center;
+  font-size: 23px;
+  color: gray;
+  padding-top: 40px;
+}
+
+.single01-title h1::before,
+.single01-title h1::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.single01-title h1::before {
+  margin-right: 8rem;
+}
+.single01-title h1::after {
+  margin-left: 8rem;
+}
+
+.single01-content {
+  display: block;
+  text-align: center;
+}
+
+.single01-content img {
+  width: 300px;
+}
+
+.single01-content p {
+  font-size: 18px;
+}
+
+.single01-song {
+  padding-top: 15px;
+  font-size: 23px;
+  text-align: left;
+  display: inline-block;
+}
+
+.record {
+  margin-left: 55px;
+}
+
+.single01-song img  {
+  width: 30px;
+  display: inline-block;
+}
+
+.single01-song p {
+  display: inline-block;
+}
+
+.single01-song button {
+    background:none;
+    border:0;
+    overflow:visible;
+    cursor:pointer;
+    vertical-align: middle;
+}
+
+.link_btn {
+  display: block;
+  width: 430px;
+  margin: 20px auto;
+  padding: 1em 1em;
+  background: #5fb1dd;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
