@@ -1,5 +1,5 @@
 .discography {
-  height: 100vh;
+  height: 1000px;
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
     "Times New Roman", serif;
 }
@@ -98,7 +98,16 @@ input[name="tab_item"] {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .discography {
+    height: 800px;
+  }
+}
+
 @media screen and (max-width: 599px) {
+  .discography {
+    height: 500px;
+  }
 
   .tab_content_description img {
     margin: 30px 20px 0 0;
