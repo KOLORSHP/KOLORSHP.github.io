@@ -207,10 +207,6 @@
 }
 
 @media screen and (max-width: 599px) {
-  .news {
-    height: 1000px;
-  }
-
   .title {
     padding-left: 10px;
   }
@@ -246,6 +242,13 @@
 
   .sp-br2 {
     display: none;
+  }
+}
+
+/*縦幅調整用*/
+@media screen and (max-width: 450px) {
+  .news {
+    height: 1000px;
   }
 }
 
