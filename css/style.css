@@ -108,6 +108,10 @@ body {
   color: #009dff;
 }
 
+.topic-url:hover {
+  color: #009dff;
+}
+
 /*sp版topic*/
 .sp-topic {
   display: none;
@@ -185,6 +189,10 @@ body {
   border-radius: 5px;
   font-size: 2vw;
   margin: 0 auto;
+}
+
+.sp-topic-url:hover {
+  color: white;
 }
 
 /*sp版でのみ表示*/
