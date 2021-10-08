@@ -1,5 +1,5 @@
 .contact {
-  height: 100vh;
+  height: 1000px;
   font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
@@ -55,5 +55,17 @@
 
   .contact-content p:last-child {
     font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .contact {
+    height: 500px;
   }
 }

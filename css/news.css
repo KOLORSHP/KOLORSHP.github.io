@@ -1,5 +1,5 @@
 .news {
-  height: 1800px;
+  height: 1500px;
 }
 
 .news-title {
@@ -73,11 +73,13 @@
 }
 
 #single01 {
-  padding-top: 60px;
+  padding-top: 70px;
+  margin-top: -70px;
 }
 
 #single02 {
-  padding-top: 60px;
+  padding-top: 70px;
+  margin-top: -70px;
 }
 
 .popup_wrap input {
@@ -194,6 +196,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .news {
+    height: 1300px;
+  }
+
   .share {
     top: 20%;
     right: 8%;
@@ -201,6 +207,10 @@
 }
 
 @media screen and (max-width: 599px) {
+  .news {
+    height: 1000px;
+  }
+
   .title {
     padding-left: 10px;
   }
