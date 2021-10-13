@@ -81,10 +81,6 @@
   padding-top: 55px;
 }
 
-.sp-br {
-  display: none;
-}
-
 @media screen and (max-width: 1024px) {
   .title {
     padding-left: 40px;
@@ -144,10 +140,6 @@
     font-size: 2vw;
     padding: 0;
   }
-
-  /*.sp-br {
-    display: block;
-  }*/
 }
 
 /*縦幅調整用*/
