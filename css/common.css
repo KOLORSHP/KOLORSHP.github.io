@@ -201,7 +201,6 @@ footer {
 
 .footer-icon2 {
   width: 7%;
-  margin-right: 6%;
 }
 
 /*タブレット*/
@@ -246,7 +245,7 @@ footer {
   }
 
   .footer-sns {
-    padding: 8% 0 0 35%;
+    padding: 8% 0 0 45%;
   }
 
   .logo {
@@ -256,10 +255,6 @@ footer {
 
 /*スマホ*/
 @media screen and (max-width: 599px) {
-  .footer-sns {
-    padding: 8% 0 0 35%;
-  }
-
   .logo {
     font-size: 20px;
   }
