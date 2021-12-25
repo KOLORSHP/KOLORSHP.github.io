@@ -16,33 +16,6 @@ body {
   z-index: 10;
 }
 
-.main-content {
-  display: flex;
-  position: absolute;
-  top: 8%;
-  left: 7%;
-}
-
-.main-img {
-  width: 35%;
-  height: 35%;
-  margin-top: 6%;
-}
-
-.main-text {
-  color: white;
-  font-family: 'Anton', sans-serif;
-  font-size: 5vw;
-  padding: 8% 0 0 12%;
-  line-height: 1.5;
-  /*safariでのレイアウト崩れに対応*/
-  width: 70%;
-}
-
-.main-text span {
-  font-size: 8vw;
-}
-
 /*******topic*******/
 
 .topic {
