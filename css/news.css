@@ -1,5 +1,5 @@
 .news {
-  height: 1500px;
+  height: 2000px;
 }
 
 .news-title {
@@ -64,6 +64,10 @@
     sans-serif;
 }
 
+.signature {
+  text-align: right;
+}
+
 .detail {
   font-size: 20px;
   padding-top: 10px;
@@ -107,7 +111,7 @@
 
 @media screen and (max-width: 767px) {
   .news {
-    height: 1300px;
+    height: 1500px;
   }
 }
 
