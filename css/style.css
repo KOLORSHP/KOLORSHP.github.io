@@ -71,7 +71,7 @@ body {
 }
 
 .topic-text span {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .topic-url {
@@ -214,7 +214,7 @@ body {
   }
 
   .topic-text span {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 }
 
