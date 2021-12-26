@@ -77,12 +77,12 @@
       <section class="single01">
         <div class="single01-title">
           <p>1st Single</p>
-          <h1>BLUE</h1>
+          <h1>BLUE/Stay in my life</h1>
         </div>
 
         <div class="single01-content">
-          <img src="img/common_img01.png" alt="Jacket">
-          <p>2021.05.21 Release</p>
+          <img src="img/common_img03.png" alt="Jacket">
+        <p>2021.05.21 Release</p>
           <div class="single01-song">
             <p class="record">収録内容</p>
             <div class="song01">
@@ -90,10 +90,17 @@
               <button type="image" id="btn-play1" class="btn-play"><img src="assets/img/discography_icon01.png" alt="再生"></button>
               <p>01.BLUE</p>
             </div>
+
             <div class="song02">
-              <audio id="audio02" src="sounds/afr.wav"></audio>
+              <audio id="audio02" src="sounds/siml.wav"></audio>
               <button type="image" id="btn-play2" class="btn-play"><img src="assets/img/discography_icon01.png" alt="再生"></button>
-              <p>02.After the Rain</p>
+              <p>02.Stay in my life</p>
+            </div>
+
+            <div class="song03">
+              <audio id="audio03" src="sounds/afr.wav"></audio>
+              <button type="image" id="btn-play3" class="btn-play"><img src="assets/img/discography_icon01.png" alt="再生"></button>
+              <p>03.After the Rain</p>
             </div>
           </div>
           <a class="link_btn" href="https://linkco.re/MvQp8m8f" target="_blank" rel="noopener noreferrer">楽曲配信及びダウンロードサイトはコチラ</a>
@@ -165,8 +172,10 @@
 <script>
   const audio01 = document.querySelector("#audio01");
   const audio02 = document.querySelector("#audio02");
+  const audio03 = document.querySelector("#audio03");
   const btn  = document.querySelector("#btn-play1");
   const btn2 = document.querySelector("#btn-play2");
+  const btn3 = document.querySelector("#btn-play3");
 
   btn.addEventListener("click", ()=>{
     // pausedがtrue=>停止, false=>再生中
@@ -195,6 +204,20 @@
     }
   });
 
+  btn3.addEventListener("click", ()=>{
+    // pausedがtrue=>停止, false=>再生中
+    if( ! audio03.paused ){
+      btn3.innerHTML = '<img class="btn-play" src="assets/img/discography_icon01.png" alt="再生">';  // 「再生ボタン」に切り替え
+      audio03.pause();
+      audio03.currentTime = 0;
+    }
+    else{
+      btn3.innerHTML = '<img class="btn-play" src="assets/img/discography_icon02.png" alt="一時停止">';  // 「一時停止ボタン」に切り替え
+      audio03.play();
+      audio03.currentTime = 0;
+    }
+  });
+
   /**
    * [event] 再生終了時に実行
    */
@@ -206,5 +229,10 @@
   audio02.addEventListener("ended", ()=>{
     audio02.currentTime = 0;  // 再生位置を先頭に移動
     btn2.innerHTML = '<img src="assets/img/discography_icon01.png" alt="一時停止">';  // 「再生ボタン」に変更
+  });
+
+  audio03.addEventListener("ended", ()=>{
+    audio03.currentTime = 0;  // 再生位置を先頭に移動
+    btn3.innerHTML = '<img src="assets/img/discography_icon01.png" alt="一時停止">';  // 「再生ボタン」に変更
   });
 </script>
