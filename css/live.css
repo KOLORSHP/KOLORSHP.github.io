@@ -1,3 +1,8 @@
+body {
+  background-image: url(../img/background.png);
+  background-size: cover;
+}
+
 .live {
   height: 1000px;
   font-family: "Baskerville", "Baskerville Old Face", "Garamond","Times New Roman", serif;
