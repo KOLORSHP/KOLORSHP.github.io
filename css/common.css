@@ -78,6 +78,11 @@ nav a:hover {
   margin: 4px 0 0 0;
 }
 
+.icon3 {
+  width: 35px;
+  margin: 3px  0 0 5px;
+}
+
 
 /*******footer*******/
 
@@ -203,6 +208,11 @@ footer {
   width: 7%;
 }
 
+.footer-icon3 {
+  width: 8%;
+  margin-left: 7%;
+}
+
 /*タブレット*/
 @media screen and (max-width: 1024px) {
   .logo {
@@ -245,7 +255,7 @@ footer {
   }
 
   .footer-sns {
-    padding: 8% 0 0 45%;
+    padding: 8% 0 0 37%;
   }
 
   .logo {
@@ -279,6 +289,11 @@ footer {
   .icon2 {
     width: 21px;
     margin: 4px 5px 13px 5px;
+  }
+
+  .icon3 {
+    width: 26px;
+    margin-top: 4px;
   }
 
   .logo {
