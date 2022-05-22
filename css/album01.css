@@ -3,18 +3,18 @@ body {
   background-size: cover;
 }
 
-.single01 {
+.album {
   height: 1000px;
   font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
     'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
-.single01-title {
+.album-title {
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
     "Times New Roman", serif;
 }
 
-.single01-title h1 {
+.album-title h1 {
   font-size: 5vw;
   text-align: center;
   font-weight: normal;
@@ -24,7 +24,7 @@ body {
     "Times New Roman", serif;
 }
 
-.single01-title p {
+.album-title p {
   text-align: center;
   font-size: 23px;
   color: gray;
@@ -32,35 +32,35 @@ body {
   margin-bottom: 10px;
 }
 
-.single01-title h1::before,
-.single01-title h1::after {
+.album-title h1::before,
+.album-title h1::after {
   content: "";
   height: 1px;
   flex-grow: 1;
   background-color: black;
 }
 
-.single01-title h1::before {
+.album-title h1::before {
   margin-right: 19%;
 }
-.single01-title h1::after {
+.album-title h1::after {
   margin-left: 19%;
 }
 
-.single01-content {
+.album-content {
   display: block;
   text-align: center;
 }
 
-.single01-content img {
+.album-content img {
   width: 300px;
 }
 
-.single01-content p {
+.album-content p {
   font-size: 18px;
 }
 
-.single01-song {
+.album-song {
   font-size: 23px;
   text-align: left;
   display: inline-block;
@@ -70,16 +70,16 @@ body {
   margin-left: 55px;
 }
 
-.single01-song img  {
+.album-song img  {
   width: 30px;
   display: inline-block;
 }
 
-.single01-song p {
+.album-song p {
   display: inline-block;
 }
 
-.single01-song button {
+.album-song button {
     background:none;
     border:0;
     overflow:visible;
@@ -108,13 +108,13 @@ body {
     width: 340px;
   }
 
-  .single01-title h1 {
+  .album-title h1 {
     font-size: 7vw;
   }
 }
 
 @media screen and (max-width: 599px) {
-  .single01-title p {
+  .album-title p {
     font-size: 15px;
   }
 
@@ -123,21 +123,21 @@ body {
     font-size: 8px;
   }
 
-  .single01-content img {
+  .album-content img {
     width: 150px;
   }
 
-  .single01-song img {
+  .album-song img {
     width: 30px;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .single01-content img {
+  .album-content img {
     width: 500px;
   }
 
-  .single01-song img {
+  .album-song img {
     width: 30px;
   }
 }
