@@ -48,16 +48,18 @@ body {
 }
 
 .album-content {
-  display: block;
+  display: flex;
   padding: 5% 0 0 10%;
 }
 
-.album-content img {
-  width: 300px;
+.album-img img {
+  width: 280px;
 }
 
-.album-content p {
+.album-img p {
   font-size: 18px;
+  text-align: center;
+  padding-top: 3%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -80,21 +82,13 @@ body {
     font-size: 8px;
   }
 
-  .album-content img {
+  .album-img img {
     width: 150px;
-  }
-
-  .album-song img {
-    width: 30px;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .album-content img {
+  .album-img img {
     width: 500px;
-  }
-
-  .album-song img {
-    width: 30px;
   }
 }
