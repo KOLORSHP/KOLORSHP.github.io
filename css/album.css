@@ -49,7 +49,7 @@ body {
 
 .album-content {
   display: block;
-  text-align: center;
+  padding: 5% 0 0 10%;
 }
 
 .album-content img {
@@ -58,49 +58,6 @@ body {
 
 .album-content p {
   font-size: 18px;
-}
-
-.album-song {
-  font-size: 23px;
-  text-align: left;
-  display: inline-block;
-}
-
-.record {
-  margin-left: 55px;
-}
-
-.album-song img  {
-  width: 30px;
-  display: inline-block;
-}
-
-.album-song p {
-  display: inline-block;
-}
-
-.album-song button {
-    background:none;
-    border:0;
-    overflow:visible;
-    cursor:pointer;
-    vertical-align: middle;
-    padding-bottom: 5px;
-}
-
-.link_btn {
-  display: block;
-  width: 430px;
-  margin: 20px auto;
-  padding: 1em 1em;
-  background: #5fb1dd;
-  color: white;
-  text-decoration: none;
-  border-radius: 10px;
-}
-
-.link_btn:hover {
-  color: white;
 }
 
 @media screen and (max-width: 1024px) {
