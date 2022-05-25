@@ -49,7 +49,8 @@ body {
 
 .album-content {
   display: flex;
-  padding: 7% 0 0 14%;
+  margin: 6% auto;
+  width: 60%;
 }
 
 .album-img img {
@@ -96,5 +97,15 @@ body {
 @media screen and (min-width: 1600px) {
   .album-img img {
     width: 500px;
+  }
+
+  .album-content {
+    margin: 6% auto;
+    width: 50%;
+  }
+
+  .album-play iframe {
+    width: 235%;
+    height: 433px;
   }
 }
