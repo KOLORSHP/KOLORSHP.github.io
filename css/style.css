@@ -86,6 +86,11 @@ body {
   color: #009dff;
 }
 
+.youtube {
+  width: 40%;
+  margin: 0 auto;
+}
+
 /*sp版topic*/
 .sp-topic {
   display: none;
