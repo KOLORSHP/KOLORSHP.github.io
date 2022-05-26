@@ -87,8 +87,11 @@ body {
 }
 
 .youtube {
-  width: 40%;
-  margin: 0 auto;
+  text-align: center;
+}
+
+.youtube iframe {
+  width: 50%;
 }
 
 /*sp版topic*/
@@ -247,5 +250,12 @@ body {
 
   .sp-topic-url {
     width: 45%;
+  }
+}
+
+/*最大幅に対応*/
+@media screen and (min-width: 1441px) {
+  .youtube iframe {
+    width: 1000px;
   }
 }
