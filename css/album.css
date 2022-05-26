@@ -50,7 +50,7 @@ body {
 .album-content {
   display: flex;
   margin: 6% auto;
-  width: 60%;
+  width: 88%;
 }
 
 .album-img img {
@@ -64,18 +64,35 @@ body {
 }
 .album-play iframe {
   border-radius: 10px;
-  width: 180%;
-  height: 380px;
+  width: 163%;
+  height: 350px;
   margin-left: 50%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .link_btn {
     width: 340px;
   }
 
   .album-title h1 {
     font-size: 7vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .album-img img {
+    width: 280px;
+  }
+
+  .album-content {
+    margin: 6% auto;
+    width: 60%;
+  }
+
+  .album-play iframe {
+    width: 180%;
+    height: 380px;
+    margin-left: 50%;
   }
 }
 
