@@ -89,6 +89,21 @@ body {
   .album-title h1 {
     font-size: 7vw;
   }
+
+  .album-img img {
+    width: 200px;
+    margin-left: 12%;
+  }
+
+  .album-img p {
+   margin-right: 16%;
+  }
+
+  .album-play iframe {
+    width: 100%;
+    height: 230px;
+    margin: 5% 0 0 10%;
+  }
 }
 
 @media screen and (min-width: 1400px) {
