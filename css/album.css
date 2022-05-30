@@ -107,24 +107,6 @@ body {
   height: 380px;
 }
 
-/*@media screen and (min-width: 1400px) {
-  .album-img img {
-    width: 280px;
-    margin-left: 9%;
-  }
-
-  .album-content {
-    margin: 6% auto;
-    width: 70%;
-  }
-
-  .album-play iframe {
-    width: 180%;
-    height: 380px;
-    margin-left: 42%;
-  }
-}*/
-
 @media screen and (max-width: 599px) {
   .album-title p {
     font-size: 15px;
@@ -139,22 +121,6 @@ body {
     width: 150px;
   }
 }
-
-/*@media screen and (min-width: 1600px) {
-  .album-img img {
-    width: 500px;
-  }
-
-  .album-content {
-    margin: 6% auto;
-    width: 50%;
-  }
-
-  .album-play iframe {
-    width: 235%;
-    height: 433px;
-  }
-}*/
 
 /*タブレット版*/
 @media screen and (max-width: 1023px) {
