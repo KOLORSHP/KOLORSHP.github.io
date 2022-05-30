@@ -93,6 +93,7 @@ body {
 .youtube iframe {
   width: 69%;
   max-width: 1000px;
+  margin-top: 3%;
 }
 
 /*sp版topic*/
