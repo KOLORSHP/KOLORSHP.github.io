@@ -53,13 +53,13 @@ body {
 
 .album-content {
   display: flex;
-  margin: 6% auto;
-  width: 88%;
+  justify-content: center;
+  margin: 4% 12% 0 0;
+  column-gap: 5%;
 }
 
 .album-img img {
-  width: 280px;
-  margin-left: 8%;
+  width: 330px;
 }
 
 .album-img p {
@@ -68,7 +68,7 @@ body {
   padding-top: 3%;
 }
 .album-play iframe {
-  width: 163%;
+  width: 155%;
   height: 350px;
   margin-left: 19%;
 }
@@ -107,7 +107,7 @@ body {
   height: 380px;
 }
 
-@media screen and (min-width: 1400px) {
+/*@media screen and (min-width: 1400px) {
   .album-img img {
     width: 280px;
     margin-left: 9%;
@@ -123,7 +123,7 @@ body {
     height: 380px;
     margin-left: 42%;
   }
-}
+}*/
 
 @media screen and (max-width: 599px) {
   .album-title p {
@@ -140,7 +140,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1600px) {
+/*@media screen and (min-width: 1600px) {
   .album-img img {
     width: 500px;
   }
@@ -154,7 +154,7 @@ body {
     width: 235%;
     height: 433px;
   }
-}
+}*/
 
 /*タブレット版*/
 @media screen and (max-width: 1023px) {
