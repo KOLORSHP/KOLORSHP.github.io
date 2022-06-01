@@ -68,11 +68,11 @@ body {
 .topic-text {
   font-size: 29px;
   color: white;
-  margin: 10% 0 0 10%;
+  margin: 6% 0 0 10%;
 }
 
 .topic-text span {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .topic-url {
@@ -224,7 +224,7 @@ body {
   }
 
   .topic-text span {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }
 
