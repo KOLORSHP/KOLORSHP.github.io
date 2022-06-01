@@ -178,6 +178,18 @@ body {
   color: #009dff;
 }
 
+.sp-youtube {
+  text-align: center;
+  height: 40vh;
+}
+
+.sp-youtube iframe {
+  width: 90%;
+  height: 80%;
+  max-width: 500px;
+  margin-top: 3%;
+}
+
 /*sp版でのみ表示*/
 .phone-area {
   display: none;
