@@ -3,8 +3,6 @@
 
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="日本の4人組ロックバンド、Raynialのオフィシャルサイト。最新ニュースやリリース情報、ディスコグラフィなどを掲載。">
-    <meta name="thumbnail" content="https://linkstorage.linkfire.com/medialinks/images/3ed34618-de88-46ab-ab57-17d0e26a39df/artwork-440x440.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="vqdU90B9Mhxfv8heEf4MFQrGoFVx08kdy_s92ykO8D0" />
 
@@ -20,17 +18,14 @@
 
     <!--ogp設定-->
     <title>Raynial公式サイト</title>
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.kolors-official.com/">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.kolors-official.com/album01.html">
     <meta property="og:image" content="https://linkstorage.linkfire.com/medialinks/images/3ed34618-de88-46ab-ab57-17d0e26a39df/artwork-440x440.jpg" />
     <meta property="og:description" content="日本の4人組ロックバンド、Raynialの公式サイト">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/common.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/album.css" />
+    <link rel="stylesheet" href="css/common.css" />
   </head>
 
   <body>
@@ -38,7 +33,11 @@
       <nav class="navbar navbar-expand-md fixed-top">
         <a class="navbar-brand logo" href="index.html">Raynial</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">
+            <span id="line1"></span>
+            <span id="line2"></span>
+            <span id="line3"></span>
+          </span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" align="right">
@@ -71,68 +70,54 @@
                 <img class="icon2" src="assets/img/header_icon02.png" alt="twitter">
               </a>
             </li>
+            <li class="nav-item sns-icon">
+              <a class="link3" href="#">
+                <img class="icon3" src="assets/img/header_icon03.png" alt="youtube">
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
 
-      <section class="main-visual"></section>
+      <section class="album">
+        <div class="album-title">
+          <p>1st mini album</p>
+          <h1>the path</h1>
+        </div>
 
-      <!--sp版のみ表示-->
-      <section class="phone-area">
-        <div class="phone-content">
-          <a href="https://music.apple.com/jp/artist/raynial/1601355212" target="_blank" rel="noopener noreferrer">
-            <img class="phone-btn btn-1" src="assets/img/sp01.png" alt="AppleMusic">
-          </a>
-          <a href="https://open.spotify.com/artist/1mk5Boq4GySpkgn3Uaz61a?si=oLIqtv4SQcqGomTp9gpWxA" target="_blank" rel="noopener noreferrer">
-            <img class="phone-btn btn-2" src="assets/img/sp02.png" alt="spotify">
-          </a>
-          <a href="https://music.line.me/webapp/artist/mi0000000017d62b6b" target="_blank" rel="noopener noreferrer">
-            <img class="phone-btn btn-3" src="assets/img/sp03.png" alt="line-music">
-          </a>
-          <a href="https://music.apple.com/jp/album/the-path-ep/1626000081" target="_blank" rel="noopener noreferrer">
-            <img class="phone-btn btn-4" src="assets/img/sp04.png" alt="iTunes">
-          </a>
+        <div class="album-content">
+          <div class="album-img">
+            <img src="img/common_img04.png" alt="Jacket">
+            <p>2022.06.04 Release</p>
+            <a class="link_btn" href="https://linkco.re/MvQp8m8f" target="_blank" rel="noopener noreferrer">楽曲配信及びダウンロードサイトはコチラ</a>
+          </div>
+
+          <div class="album-play">
+            <iframe src="https://open.spotify.com/embed/album/7tvpTwjI3Z0Bwsnq7nZC4z?utm_source=generator"
+            frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
+          </div>
         </div>
       </section>
 
-      <section class="topic">
-        <h1 class="topic-title">TOPIC</h1>
-          <div class="topic-content">
-            <img class="topic-img" src="img/common_img03.png" alt="Jacket">
-            <div class="topic-text">
-              <p>1st mini album</p>
-              <p><span>"the path"</span></p>
-              <p>各ストリーミングサービスにて<br/>配信中！</p>
-              <a class="topic-url" href="https://linkco.re/MvQp8m8f" target="_blank" rel="noopener noreferrer">配信サイトはコチラ</a>
-            </div>
-          </div>
+      <!--sp版-->
+      <section class="sp-album">
+        <div class="album-title">
+          <p>1st mini album</p>
+          <h1>the path</h1>
+        </div>
 
-        <h1 class="topic-title">VIDEO</h1>
-          <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gPcPseeICjs" title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-      </section>
-
-      <!--sp版topic-->
-      <section class="sp-topic">
-        <h1 class="sp-topic-title">TOPIC</h1>
-          <div class="sp-topic-content">
+        <div class="sp-album-content">
+          <div class="sp-album-img">
             <img src="img/common_img04.png" alt="Jacket">
-            <div class="sp-topic-text">
-              <p>1st mini album</p>
-              <p><span>"the path"</span></p>
-              <p>各ストリーミングサービスにて配信中！</p>
-            <u><a class="sp-topic-url" href="https://linkco.re/MvQp8m8f" target="_blank" rel="noopener noreferrer">配信サイトはコチラ</a></u>
-            </div>
+            <p>2022.06.04 Release</p>
+            <a class="link_btn" href="https://linkco.re/MvQp8m8f" target="_blank" rel="noopener noreferrer">楽曲配信及びダウンロードサイトはコチラ</a>
           </div>
 
-        <h1 class="sp-topic-title">VIDEO</h1>
-          <div class="sp-youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gPcPseeICjs" title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="sp-album-play">
+            <iframe  src="https://open.spotify.com/embed/album/0wtdAnjA1l3ojgy5j943np?utm_source=generator" frameborder="0"
+              allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
           </div>
-
+        </div>
       </section>
 
       <footer>
@@ -182,6 +167,9 @@
           </a>
           <a href="https://twitter.com/raynial_band" target="_blank" rel="noopener noreferrer">
             <img class="footer-icon2" src="assets/img/header_icon02.png" alt="twitter">
+          </a>
+          <a href="#">
+            <img class="footer-icon3" src="assets/img/header_icon03.png" alt="youtube">
           </a>
         </div>
 

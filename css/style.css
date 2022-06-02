@@ -67,11 +67,11 @@ body {
 .topic-text {
   font-size: 29px;
   color: white;
-  margin: 5% 0 0 10%;
+  margin: 6% 0 0 10%;
 }
 
 .topic-text span {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .topic-url {
@@ -83,6 +83,16 @@ body {
 
 .topic-url:hover {
   color: #009dff;
+}
+
+.youtube {
+  text-align: center;
+}
+
+.youtube iframe {
+  width: 69%;
+  max-width: 1000px;
+  margin-top: 3%;
 }
 
 /*sp版topic*/
@@ -119,11 +129,11 @@ body {
 }
 
 .sp-topic-content {
-  padding-top: 80.09%;
+  padding-top: 43.09%;
   height: 0;
   width: 90%;
-  margin: 0 auto;
-  background-image: url(../img/sp-topic.png);
+  margin: 3% auto 15% auto;
+  background-image: url(../img/index_bg03.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -131,41 +141,52 @@ body {
 
 .sp-topic-content img {
   position: absolute;
-  top: 6%;
-  left: 30%;
-  width: 40%;
+  top: 13%;
+  left: 1%;
+  width: 31%;
 }
 
 .sp-topic-text {
   color: white;
   text-align: center;
   position: absolute;
-  top: 53%;
-  left: 10%;
+  top: 15%;
+  left: 36%;
+}
+
+.sp-topic-text p {
+  margin-bottom: 0;
 }
 
 .sp-topic-text span {
-  font-size: 7vw;
+  font-size: 6vw;
 }
 
 .sp-topic-text:last-child {
-  font-size: 4vw;
-}
-
-.sp-topic-url {
-  display: block;
-  width: 35%;
-  padding: 10px 0 10px 0;
-  background-color: rgba(0,99,160,0.8);
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 2vw;
-  margin: 0 auto;
+  font-size: 3vw;
 }
 
 .sp-topic-url:hover {
   color: white;
+}
+
+.sp-topic-url {
+  display: block;
+  font-size: 4vw;
+  padding-top: 6%;
+  color: #009dff;
+}
+
+.sp-youtube {
+  text-align: center;
+  height: 40vh;
+}
+
+.sp-youtube iframe {
+  width: 90%;
+  height: 80%;
+  max-width: 500px;
+  margin-top: 3%;
 }
 
 /*sp版でのみ表示*/
@@ -214,7 +235,7 @@ body {
   }
 
   .topic-text span {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }
 
@@ -237,9 +258,5 @@ body {
 @media screen and (max-width: 599px) {
   .btn-2, .btn-4 {
     margin-left: 7%;
-  }
-
-  .sp-topic-url {
-    width: 45%;
   }
 }
