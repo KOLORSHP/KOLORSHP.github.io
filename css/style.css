@@ -76,7 +76,7 @@ body {
 }
 
 .topic-url {
-  display: block;
+  display: inline-block;
   font-size: 30px;
   padding-top: 35px;
   color: #009dff;
