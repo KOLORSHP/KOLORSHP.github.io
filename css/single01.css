@@ -1,3 +1,8 @@
+body {
+  background-image: url(../img/background.png);
+  background-size: cover;
+}
+
 .single01 {
   height: 1000px;
   font-family: 'Hiragino Sans W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
