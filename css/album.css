@@ -93,7 +93,8 @@ body {
 }
 
 .sp-album-img img {
-  width: 35%;
+  width: 50%;
+  max-width: 400px;
 }
 
 .sp-album-play {
@@ -139,7 +140,7 @@ body {
 
   .album-play iframe {
     width: 100%;
-    height: 230px;
+    height: 285px;
     margin: 5% 0 0 10%;
   }
 }
