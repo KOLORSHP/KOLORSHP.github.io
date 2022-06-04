@@ -80,7 +80,9 @@ body {
 }
 
 .news-content a {
+  display: inline-block;
   color: #009dff;
+  text-decoration: underline;
 }
 
 .news-line {
