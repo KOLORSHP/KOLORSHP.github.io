@@ -30,7 +30,7 @@ body {
   font-family: "Baskerville", "Baskerville Old Face", "Garamond",
     "Times New Roman", serif;
   font-weight: normal;
-  padding-top: 80px;
+  padding-top: 115px;
 }
 
 .topic-title::before,
@@ -92,8 +92,9 @@ body {
 }
 
 .youtube iframe {
-  width: 69%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 1200px;
+  height: 480px;
   margin-top: 3%;
 }
 
@@ -187,8 +188,8 @@ body {
 
 .sp-youtube iframe {
   width: 90%;
-  height: 80%;
-  max-width: 500px;
+  height: 90%;
+  max-height: 230px;
   margin-top: 3%;
 }
 
